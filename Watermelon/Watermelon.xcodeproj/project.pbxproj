@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C29F8A71AD490F100E9EB7C /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C29F8A61AD490F100E9EB7C /* Firebase.framework */; };
+		3C29F8A91AD4911000E9EB7C /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C29F8A81AD4911000E9EB7C /* libicucore.dylib */; };
+		3C29F8AB1AD4911800E9EB7C /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C29F8AA1AD4911800E9EB7C /* libc++.dylib */; };
+		3C29F8AD1AD4911E00E9EB7C /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C29F8AC1AD4911E00E9EB7C /* CFNetwork.framework */; };
+		3C29F8AF1AD4912500E9EB7C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C29F8AE1AD4912500E9EB7C /* Security.framework */; };
+		3C29F8B11AD4913100E9EB7C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C29F8B01AD4913000E9EB7C /* SystemConfiguration.framework */; };
+		3C29F8B31AD4914100E9EB7C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C29F8B21AD4914100E9EB7C /* QuartzCore.framework */; };
+		3CA7E3B91AD33FEB00432446 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA7E3B81AD33FEB00432446 /* main.m */; };
+		3CA7E3BC1AD33FEB00432446 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA7E3BB1AD33FEB00432446 /* AppDelegate.m */; };
+		3CA7E3BF1AD33FEB00432446 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA7E3BE1AD33FEB00432446 /* ViewController.m */; };
+		3CA7E3C21AD33FEB00432446 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CA7E3C01AD33FEB00432446 /* Main.storyboard */; };
+		3CA7E3C41AD33FEB00432446 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CA7E3C31AD33FEB00432446 /* Images.xcassets */; };
+		3CA7E3C71AD33FEB00432446 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CA7E3C51AD33FEB00432446 /* LaunchScreen.xib */; };
+		3CA7E3D31AD33FEB00432446 /* WatermelonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA7E3D21AD33FEB00432446 /* WatermelonTests.m */; };
+		3CA7E3DF1AD342F200432446 /* sea.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3CA7E3DE1AD342F200432446 /* sea.jpg */; };
+		3CA7E3E11AD34AED00432446 /* blue background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3CA7E3E01AD34AED00432446 /* blue background.jpg */; };
+		3CA7E3E31AD34B8700432446 /* gray backgound.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3CA7E3E21AD34B8700432446 /* gray backgound.jpg */; };
+		3CA7E3E51AD34BE100432446 /* 1367618.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3CA7E3E41AD34BE100432446 /* 1367618.jpg */; };
+		3CA7E3E71AD3591B00432446 /* logo2 (1).bmp in Resources */ = {isa = PBXBuildFile; fileRef = 3CA7E3E61AD3591B00432446 /* logo2 (1).bmp */; };
+		3CA7E3E91AD359F800432446 /* Light-Grey-Background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3CA7E3E81AD359F800432446 /* Light-Grey-Background.jpg */; };
+		3CA7E3EB1AD35CD200432446 /* blurredsea.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CA7E3EA1AD35CD200432446 /* blurredsea.png */; };
+		3CA7E3ED1AD35DFB00432446 /* philcircle.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CA7E3EC1AD35DFB00432446 /* philcircle.png */; };
+		3CA7E3EF1AD3681000432446 /* cliffriver.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3CA7E3EE1AD3681000432446 /* cliffriver.jpg */; };
+		3CA7E3F11AD368A600432446 /* blurcliff.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3CA7E3F01AD368A600432446 /* blurcliff.jpg */; };
+		3CA7E3F31AD3714200432446 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CA7E3F21AD3714200432446 /* logo.png */; };
+		3CA7E3F51AD3727C00432446 /* white sands.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3CA7E3F41AD3727C00432446 /* white sands.jpg */; };
+		3CA7E3F71AD372E200432446 /* whitesands blur.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3CA7E3F61AD372E200432446 /* whitesands blur.jpg */; };
+		3CA7E3F91AD39FC300432446 /* verticalsea.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3CA7E3F81AD39FC300432446 /* verticalsea.jpg */; };
+		3CA7E3FB1AD3B91100432446 /* login with facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CA7E3FA1AD3B91100432446 /* login with facebook.png */; };
+		3CA7E3FD1AD3B9CD00432446 /* facebook-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CA7E3FC1AD3B9CD00432446 /* facebook-icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3CA7E3CD1AD33FEB00432446 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CA7E3AB1AD33FEB00432446 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CA7E3B21AD33FEB00432446;
+			remoteInfo = Watermelon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C29F8A61AD490F100E9EB7C /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Firebase.framework; sourceTree = "<group>"; };
+		3C29F8A81AD4911000E9EB7C /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		3C29F8AA1AD4911800E9EB7C /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		3C29F8AC1AD4911E00E9EB7C /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		3C29F8AE1AD4912500E9EB7C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		3C29F8B01AD4913000E9EB7C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		3C29F8B21AD4914100E9EB7C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		3C29F8B41AD4930E00E9EB7C /* Track.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Track.h; sourceTree = "<group>"; };
+		3CA7E3B31AD33FEB00432446 /* Watermelon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Watermelon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CA7E3B71AD33FEB00432446 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CA7E3B81AD33FEB00432446 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3CA7E3BA1AD33FEB00432446 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3CA7E3BB1AD33FEB00432446 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3CA7E3BD1AD33FEB00432446 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3CA7E3BE1AD33FEB00432446 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3CA7E3C11AD33FEB00432446 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3CA7E3C31AD33FEB00432446 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3CA7E3C61AD33FEB00432446 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3CA7E3CC1AD33FEB00432446 /* WatermelonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatermelonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CA7E3D11AD33FEB00432446 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CA7E3D21AD33FEB00432446 /* WatermelonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WatermelonTests.m; sourceTree = "<group>"; };
+		3CA7E3DE1AD342F200432446 /* sea.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sea.jpg; sourceTree = "<group>"; };
+		3CA7E3E01AD34AED00432446 /* blue background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "blue background.jpg"; sourceTree = "<group>"; };
+		3CA7E3E21AD34B8700432446 /* gray backgound.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "gray backgound.jpg"; sourceTree = "<group>"; };
+		3CA7E3E41AD34BE100432446 /* 1367618.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1367618.jpg; sourceTree = "<group>"; };
+		3CA7E3E61AD3591B00432446 /* logo2 (1).bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = "logo2 (1).bmp"; sourceTree = "<group>"; };
+		3CA7E3E81AD359F800432446 /* Light-Grey-Background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Light-Grey-Background.jpg"; sourceTree = "<group>"; };
+		3CA7E3EA1AD35CD200432446 /* blurredsea.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blurredsea.png; sourceTree = "<group>"; };
+		3CA7E3EC1AD35DFB00432446 /* philcircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = philcircle.png; sourceTree = "<group>"; };
+		3CA7E3EE1AD3681000432446 /* cliffriver.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cliffriver.jpg; sourceTree = "<group>"; };
+		3CA7E3F01AD368A600432446 /* blurcliff.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blurcliff.jpg; sourceTree = "<group>"; };
+		3CA7E3F21AD3714200432446 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		3CA7E3F41AD3727C00432446 /* white sands.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "white sands.jpg"; sourceTree = "<group>"; };
+		3CA7E3F61AD372E200432446 /* whitesands blur.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "whitesands blur.jpg"; sourceTree = "<group>"; };
+		3CA7E3F81AD39FC300432446 /* verticalsea.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = verticalsea.jpg; sourceTree = "<group>"; };
+		3CA7E3FA1AD3B91100432446 /* login with facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login with facebook.png"; sourceTree = "<group>"; };
+		3CA7E3FC1AD3B9CD00432446 /* facebook-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "facebook-icon.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CA7E3B01AD33FEB00432446 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C29F8B31AD4914100E9EB7C /* QuartzCore.framework in Frameworks */,
+				3C29F8B11AD4913100E9EB7C /* SystemConfiguration.framework in Frameworks */,
+				3C29F8AF1AD4912500E9EB7C /* Security.framework in Frameworks */,
+				3C29F8AD1AD4911E00E9EB7C /* CFNetwork.framework in Frameworks */,
+				3C29F8AB1AD4911800E9EB7C /* libc++.dylib in Frameworks */,
+				3C29F8A91AD4911000E9EB7C /* libicucore.dylib in Frameworks */,
+				3C29F8A71AD490F100E9EB7C /* Firebase.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CA7E3C91AD33FEB00432446 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CA7E3AA1AD33FEB00432446 = {
+			isa = PBXGroup;
+			children = (
+				3C29F8B21AD4914100E9EB7C /* QuartzCore.framework */,
+				3C29F8B01AD4913000E9EB7C /* SystemConfiguration.framework */,
+				3C29F8AE1AD4912500E9EB7C /* Security.framework */,
+				3C29F8AC1AD4911E00E9EB7C /* CFNetwork.framework */,
+				3C29F8AA1AD4911800E9EB7C /* libc++.dylib */,
+				3C29F8A81AD4911000E9EB7C /* libicucore.dylib */,
+				3C29F8A61AD490F100E9EB7C /* Firebase.framework */,
+				3CA7E3B51AD33FEB00432446 /* Watermelon */,
+				3CA7E3CF1AD33FEB00432446 /* WatermelonTests */,
+				3CA7E3B41AD33FEB00432446 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3CA7E3B41AD33FEB00432446 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CA7E3B31AD33FEB00432446 /* Watermelon.app */,
+				3CA7E3CC1AD33FEB00432446 /* WatermelonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CA7E3B51AD33FEB00432446 /* Watermelon */ = {
+			isa = PBXGroup;
+			children = (
+				3CA7E3BA1AD33FEB00432446 /* AppDelegate.h */,
+				3CA7E3BB1AD33FEB00432446 /* AppDelegate.m */,
+				3C29F8B41AD4930E00E9EB7C /* Track.h */,
+				3CA7E3BD1AD33FEB00432446 /* ViewController.h */,
+				3CA7E3BE1AD33FEB00432446 /* ViewController.m */,
+				3CA7E3C01AD33FEB00432446 /* Main.storyboard */,
+				3CA7E3C31AD33FEB00432446 /* Images.xcassets */,
+				3CA7E3C51AD33FEB00432446 /* LaunchScreen.xib */,
+				3CA7E3B61AD33FEB00432446 /* Supporting Files */,
+			);
+			path = Watermelon;
+			sourceTree = "<group>";
+		};
+		3CA7E3B61AD33FEB00432446 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3CA7E3E01AD34AED00432446 /* blue background.jpg */,
+				3CA7E3EE1AD3681000432446 /* cliffriver.jpg */,
+				3CA7E3F01AD368A600432446 /* blurcliff.jpg */,
+				3CA7E3FA1AD3B91100432446 /* login with facebook.png */,
+				3CA7E3F41AD3727C00432446 /* white sands.jpg */,
+				3CA7E3F81AD39FC300432446 /* verticalsea.jpg */,
+				3CA7E3F61AD372E200432446 /* whitesands blur.jpg */,
+				3CA7E3E61AD3591B00432446 /* logo2 (1).bmp */,
+				3CA7E3FC1AD3B9CD00432446 /* facebook-icon.png */,
+				3CA7E3F21AD3714200432446 /* logo.png */,
+				3CA7E3EA1AD35CD200432446 /* blurredsea.png */,
+				3CA7E3EC1AD35DFB00432446 /* philcircle.png */,
+				3CA7E3E21AD34B8700432446 /* gray backgound.jpg */,
+				3CA7E3E81AD359F800432446 /* Light-Grey-Background.jpg */,
+				3CA7E3E41AD34BE100432446 /* 1367618.jpg */,
+				3CA7E3DE1AD342F200432446 /* sea.jpg */,
+				3CA7E3B71AD33FEB00432446 /* Info.plist */,
+				3CA7E3B81AD33FEB00432446 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3CA7E3CF1AD33FEB00432446 /* WatermelonTests */ = {
+			isa = PBXGroup;
+			children = (
+				3CA7E3D21AD33FEB00432446 /* WatermelonTests.m */,
+				3CA7E3D01AD33FEB00432446 /* Supporting Files */,
+			);
+			path = WatermelonTests;
+			sourceTree = "<group>";
+		};
+		3CA7E3D01AD33FEB00432446 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3CA7E3D11AD33FEB00432446 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CA7E3B21AD33FEB00432446 /* Watermelon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CA7E3D61AD33FEB00432446 /* Build configuration list for PBXNativeTarget "Watermelon" */;
+			buildPhases = (
+				3CA7E3AF1AD33FEB00432446 /* Sources */,
+				3CA7E3B01AD33FEB00432446 /* Frameworks */,
+				3CA7E3B11AD33FEB00432446 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Watermelon;
+			productName = Watermelon;
+			productReference = 3CA7E3B31AD33FEB00432446 /* Watermelon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3CA7E3CB1AD33FEB00432446 /* WatermelonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CA7E3D91AD33FEB00432446 /* Build configuration list for PBXNativeTarget "WatermelonTests" */;
+			buildPhases = (
+				3CA7E3C81AD33FEB00432446 /* Sources */,
+				3CA7E3C91AD33FEB00432446 /* Frameworks */,
+				3CA7E3CA1AD33FEB00432446 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CA7E3CE1AD33FEB00432446 /* PBXTargetDependency */,
+			);
+			name = WatermelonTests;
+			productName = WatermelonTests;
+			productReference = 3CA7E3CC1AD33FEB00432446 /* WatermelonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CA7E3AB1AD33FEB00432446 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Ian Chen";
+				TargetAttributes = {
+					3CA7E3B21AD33FEB00432446 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					3CA7E3CB1AD33FEB00432446 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 3CA7E3B21AD33FEB00432446;
+					};
+				};
+			};
+			buildConfigurationList = 3CA7E3AE1AD33FEB00432446 /* Build configuration list for PBXProject "Watermelon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3CA7E3AA1AD33FEB00432446;
+			productRefGroup = 3CA7E3B41AD33FEB00432446 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CA7E3B21AD33FEB00432446 /* Watermelon */,
+				3CA7E3CB1AD33FEB00432446 /* WatermelonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CA7E3B11AD33FEB00432446 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CA7E3F91AD39FC300432446 /* verticalsea.jpg in Resources */,
+				3CA7E3ED1AD35DFB00432446 /* philcircle.png in Resources */,
+				3CA7E3F71AD372E200432446 /* whitesands blur.jpg in Resources */,
+				3CA7E3C21AD33FEB00432446 /* Main.storyboard in Resources */,
+				3CA7E3DF1AD342F200432446 /* sea.jpg in Resources */,
+				3CA7E3E31AD34B8700432446 /* gray backgound.jpg in Resources */,
+				3CA7E3F31AD3714200432446 /* logo.png in Resources */,
+				3CA7E3E51AD34BE100432446 /* 1367618.jpg in Resources */,
+				3CA7E3F51AD3727C00432446 /* white sands.jpg in Resources */,
+				3CA7E3EF1AD3681000432446 /* cliffriver.jpg in Resources */,
+				3CA7E3C71AD33FEB00432446 /* LaunchScreen.xib in Resources */,
+				3CA7E3FB1AD3B91100432446 /* login with facebook.png in Resources */,
+				3CA7E3C41AD33FEB00432446 /* Images.xcassets in Resources */,
+				3CA7E3F11AD368A600432446 /* blurcliff.jpg in Resources */,
+				3CA7E3E91AD359F800432446 /* Light-Grey-Background.jpg in Resources */,
+				3CA7E3E11AD34AED00432446 /* blue background.jpg in Resources */,
+				3CA7E3FD1AD3B9CD00432446 /* facebook-icon.png in Resources */,
+				3CA7E3EB1AD35CD200432446 /* blurredsea.png in Resources */,
+				3CA7E3E71AD3591B00432446 /* logo2 (1).bmp in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CA7E3CA1AD33FEB00432446 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CA7E3AF1AD33FEB00432446 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CA7E3BF1AD33FEB00432446 /* ViewController.m in Sources */,
+				3CA7E3BC1AD33FEB00432446 /* AppDelegate.m in Sources */,
+				3CA7E3B91AD33FEB00432446 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CA7E3C81AD33FEB00432446 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CA7E3D31AD33FEB00432446 /* WatermelonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3CA7E3CE1AD33FEB00432446 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CA7E3B21AD33FEB00432446 /* Watermelon */;
+			targetProxy = 3CA7E3CD1AD33FEB00432446 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3CA7E3C01AD33FEB00432446 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CA7E3C11AD33FEB00432446 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3CA7E3C51AD33FEB00432446 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CA7E3C61AD33FEB00432446 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3CA7E3D41AD33FEB00432446 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3CA7E3D51AD33FEB00432446 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3CA7E3D71AD33FEB00432446 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Watermelon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3CA7E3D81AD33FEB00432446 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Watermelon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3CA7E3DA1AD33FEB00432446 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WatermelonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Watermelon.app/Watermelon";
+			};
+			name = Debug;
+		};
+		3CA7E3DB1AD33FEB00432446 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WatermelonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Watermelon.app/Watermelon";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CA7E3AE1AD33FEB00432446 /* Build configuration list for PBXProject "Watermelon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CA7E3D41AD33FEB00432446 /* Debug */,
+				3CA7E3D51AD33FEB00432446 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CA7E3D61AD33FEB00432446 /* Build configuration list for PBXNativeTarget "Watermelon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CA7E3D71AD33FEB00432446 /* Debug */,
+				3CA7E3D81AD33FEB00432446 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CA7E3D91AD33FEB00432446 /* Build configuration list for PBXNativeTarget "WatermelonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CA7E3DA1AD33FEB00432446 /* Debug */,
+				3CA7E3DB1AD33FEB00432446 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3CA7E3AB1AD33FEB00432446 /* Project object */;
+}
