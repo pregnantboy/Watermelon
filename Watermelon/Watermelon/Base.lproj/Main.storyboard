@@ -365,10 +365,10 @@
             </objects>
             <point key="canvasLocation" x="860.5" y="513.5"/>
         </scene>
-        <!--View Controller-->
+        <!--Track View Controller-->
         <scene sceneID="lE7-As-17i">
             <objects>
-                <viewController id="lP3-6I-a80" sceneMemberID="viewController">
+                <viewController id="lP3-6I-a80" customClass="TrackViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="kxN-EQ-Bos"/>
                         <viewControllerLayoutGuide type="bottom" id="lxI-Ub-MB0"/>
@@ -412,6 +412,9 @@
                                     <segue destination="Wcl-kL-iup" kind="presentation" id="DX2-xC-RRK"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="blue background.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="jtf-gb-FED">
+                                <rect key="frame" x="60" y="349" width="240" height="128"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -427,6 +430,9 @@
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="chartImgView" destination="jtf-gb-FED" id="Gq1-Tq-lrD"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WVG-JY-HGG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -454,6 +460,7 @@
     </scenes>
     <resources>
         <image name="Light-Grey-Background.jpg" width="940" height="428"/>
+        <image name="blue background.jpg" width="425" height="283"/>
         <image name="blurcliff.jpg" width="930" height="698"/>
         <image name="blurredsea.png" width="480" height="270"/>
         <image name="logo.png" width="499" height="780"/>

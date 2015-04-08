@@ -14,6 +14,8 @@
 		3C29F8AF1AD4912500E9EB7C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C29F8AE1AD4912500E9EB7C /* Security.framework */; };
 		3C29F8B11AD4913100E9EB7C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C29F8B01AD4913000E9EB7C /* SystemConfiguration.framework */; };
 		3C29F8B31AD4914100E9EB7C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C29F8B21AD4914100E9EB7C /* QuartzCore.framework */; };
+		3C45394F1AD4ADDF0038DD1D /* TrackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C45394E1AD4ADDF0038DD1D /* TrackViewController.m */; };
+		3C80506C1AD49F29006583DC /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C80506B1AD49F29006583DC /* Accelerate.framework */; };
 		3CA7E3B91AD33FEB00432446 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA7E3B81AD33FEB00432446 /* main.m */; };
 		3CA7E3BC1AD33FEB00432446 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA7E3BB1AD33FEB00432446 /* AppDelegate.m */; };
 		3CA7E3BF1AD33FEB00432446 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA7E3BE1AD33FEB00432446 /* ViewController.m */; };
@@ -57,7 +59,9 @@
 		3C29F8AE1AD4912500E9EB7C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		3C29F8B01AD4913000E9EB7C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		3C29F8B21AD4914100E9EB7C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		3C29F8B41AD4930E00E9EB7C /* Track.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Track.h; sourceTree = "<group>"; };
+		3C45394D1AD4ADDF0038DD1D /* TrackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackViewController.h; sourceTree = "<group>"; };
+		3C45394E1AD4ADDF0038DD1D /* TrackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrackViewController.m; sourceTree = "<group>"; };
+		3C80506B1AD49F29006583DC /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		3CA7E3B31AD33FEB00432446 /* Watermelon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Watermelon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CA7E3B71AD33FEB00432446 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3CA7E3B81AD33FEB00432446 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -94,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C80506C1AD49F29006583DC /* Accelerate.framework in Frameworks */,
 				3C29F8B31AD4914100E9EB7C /* QuartzCore.framework in Frameworks */,
 				3C29F8B11AD4913100E9EB7C /* SystemConfiguration.framework in Frameworks */,
 				3C29F8AF1AD4912500E9EB7C /* Security.framework in Frameworks */,
@@ -117,6 +122,7 @@
 		3CA7E3AA1AD33FEB00432446 = {
 			isa = PBXGroup;
 			children = (
+				3C80506B1AD49F29006583DC /* Accelerate.framework */,
 				3C29F8B21AD4914100E9EB7C /* QuartzCore.framework */,
 				3C29F8B01AD4913000E9EB7C /* SystemConfiguration.framework */,
 				3C29F8AE1AD4912500E9EB7C /* Security.framework */,
@@ -144,9 +150,10 @@
 			children = (
 				3CA7E3BA1AD33FEB00432446 /* AppDelegate.h */,
 				3CA7E3BB1AD33FEB00432446 /* AppDelegate.m */,
-				3C29F8B41AD4930E00E9EB7C /* Track.h */,
 				3CA7E3BD1AD33FEB00432446 /* ViewController.h */,
 				3CA7E3BE1AD33FEB00432446 /* ViewController.m */,
+				3C45394D1AD4ADDF0038DD1D /* TrackViewController.h */,
+				3C45394E1AD4ADDF0038DD1D /* TrackViewController.m */,
 				3CA7E3C01AD33FEB00432446 /* Main.storyboard */,
 				3CA7E3C31AD33FEB00432446 /* Images.xcassets */,
 				3CA7E3C51AD33FEB00432446 /* LaunchScreen.xib */,
@@ -260,6 +267,7 @@
 			knownRegions = (
 				en,
 				Base,
+				English,
 			);
 			mainGroup = 3CA7E3AA1AD33FEB00432446;
 			productRefGroup = 3CA7E3B41AD33FEB00432446 /* Products */;
@@ -313,6 +321,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C45394F1AD4ADDF0038DD1D /* TrackViewController.m in Sources */,
 				3CA7E3BF1AD33FEB00432446 /* ViewController.m in Sources */,
 				3CA7E3BC1AD33FEB00432446 /* AppDelegate.m in Sources */,
 				3CA7E3B91AD33FEB00432446 /* main.m in Sources */,

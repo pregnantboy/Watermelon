@@ -10,14 +10,14 @@
 	<string>Watermelon</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>700D7018B6B6378BF1C3454642659FD8A52F0864</key>
+		<key>4BE136D4B10C77C501753F5650E29579E1BF9D51</key>
 		<string>https://github.com/pregnantboy/Watermelon.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>Watermelon/Watermelon.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>700D7018B6B6378BF1C3454642659FD8A52F0864</key>
+		<key>4BE136D4B10C77C501753F5650E29579E1BF9D51</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,14 +25,14 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>700D7018B6B6378BF1C3454642659FD8A52F0864</string>
+	<string>4BE136D4B10C77C501753F5650E29579E1BF9D51</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>700D7018B6B6378BF1C3454642659FD8A52F0864</string>
+			<string>4BE136D4B10C77C501753F5650E29579E1BF9D51</string>
 			<key>IDESourceControlWCCName</key>
 			<string>watermelon</string>
 		</dict>
