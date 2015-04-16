@@ -24,21 +24,53 @@
 		3CA7E3C71AD33FEB00432446 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CA7E3C51AD33FEB00432446 /* LaunchScreen.xib */; };
 		3CA7E3D31AD33FEB00432446 /* WatermelonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA7E3D21AD33FEB00432446 /* WatermelonTests.m */; };
 		3CA7E3DF1AD342F200432446 /* sea.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3CA7E3DE1AD342F200432446 /* sea.jpg */; };
-		3CA7E3E11AD34AED00432446 /* blue background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3CA7E3E01AD34AED00432446 /* blue background.jpg */; };
 		3CA7E3E31AD34B8700432446 /* gray backgound.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3CA7E3E21AD34B8700432446 /* gray backgound.jpg */; };
-		3CA7E3E51AD34BE100432446 /* 1367618.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3CA7E3E41AD34BE100432446 /* 1367618.jpg */; };
 		3CA7E3E71AD3591B00432446 /* logo2 (1).bmp in Resources */ = {isa = PBXBuildFile; fileRef = 3CA7E3E61AD3591B00432446 /* logo2 (1).bmp */; };
 		3CA7E3E91AD359F800432446 /* Light-Grey-Background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3CA7E3E81AD359F800432446 /* Light-Grey-Background.jpg */; };
 		3CA7E3EB1AD35CD200432446 /* blurredsea.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CA7E3EA1AD35CD200432446 /* blurredsea.png */; };
 		3CA7E3ED1AD35DFB00432446 /* philcircle.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CA7E3EC1AD35DFB00432446 /* philcircle.png */; };
-		3CA7E3EF1AD3681000432446 /* cliffriver.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3CA7E3EE1AD3681000432446 /* cliffriver.jpg */; };
-		3CA7E3F11AD368A600432446 /* blurcliff.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3CA7E3F01AD368A600432446 /* blurcliff.jpg */; };
 		3CA7E3F31AD3714200432446 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CA7E3F21AD3714200432446 /* logo.png */; };
-		3CA7E3F51AD3727C00432446 /* white sands.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3CA7E3F41AD3727C00432446 /* white sands.jpg */; };
-		3CA7E3F71AD372E200432446 /* whitesands blur.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3CA7E3F61AD372E200432446 /* whitesands blur.jpg */; };
 		3CA7E3F91AD39FC300432446 /* verticalsea.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3CA7E3F81AD39FC300432446 /* verticalsea.jpg */; };
 		3CA7E3FB1AD3B91100432446 /* login with facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CA7E3FA1AD3B91100432446 /* login with facebook.png */; };
 		3CA7E3FD1AD3B9CD00432446 /* facebook-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CA7E3FC1AD3B9CD00432446 /* facebook-icon.png */; };
+		3CB63A5E1AE0138E00447B70 /* (achievement) american.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB63A3E1AE0138E00447B70 /* (achievement) american.png */; };
+		3CB63A5F1AE0138E00447B70 /* (achievement) locked.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB63A3F1AE0138E00447B70 /* (achievement) locked.png */; };
+		3CB63A601AE0138E00447B70 /* (achievement) unlocked.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB63A401AE0138E00447B70 /* (achievement) unlocked.png */; };
+		3CB63A611AE0138E00447B70 /* (achievement)Euro.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB63A411AE0138E00447B70 /* (achievement)Euro.png */; };
+		3CB63A621AE0138E00447B70 /* (achievements) frog.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB63A421AE0138E00447B70 /* (achievements) frog.png */; };
+		3CB63A631AE0138E00447B70 /* (achievements)koala.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB63A431AE0138E00447B70 /* (achievements)koala.png */; };
+		3CB63A641AE0138E00447B70 /* (add challenge find friends) close.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB63A441AE0138E00447B70 /* (add challenge find friends) close.png */; };
+		3CB63A651AE0138E00447B70 /* (add challenge find friends) search.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB63A451AE0138E00447B70 /* (add challenge find friends) search.png */; };
+		3CB63A661AE0138E00447B70 /* (bar) achievement.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB63A461AE0138E00447B70 /* (bar) achievement.png */; };
+		3CB63A671AE0138E00447B70 /* (bar) achievement(selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB63A471AE0138E00447B70 /* (bar) achievement(selected.png */; };
+		3CB63A681AE0138E00447B70 /* (bar) challenge.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB63A481AE0138E00447B70 /* (bar) challenge.png */; };
+		3CB63A691AE0138E00447B70 /* (bar) friends-selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB63A491AE0138E00447B70 /* (bar) friends-selected.png */; };
+		3CB63A6A1AE0138E00447B70 /* (bar) friends.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB63A4A1AE0138E00447B70 /* (bar) friends.png */; };
+		3CB63A6B1AE0138E00447B70 /* (bar) graph-selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB63A4B1AE0138E00447B70 /* (bar) graph-selected.png */; };
+		3CB63A6C1AE0138E00447B70 /* (bar) graph.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB63A4C1AE0138E00447B70 /* (bar) graph.png */; };
+		3CB63A6D1AE0138E00447B70 /* (bar) home-selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB63A4D1AE0138E00447B70 /* (bar) home-selected.png */; };
+		3CB63A6E1AE0138E00447B70 /* (bar) home.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB63A4E1AE0138E00447B70 /* (bar) home.png */; };
+		3CB63A6F1AE0138E00447B70 /* (bar) menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB63A4F1AE0138E00447B70 /* (bar) menu.png */; };
+		3CB63A701AE0138E00447B70 /* (friends challenge) champ.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB63A501AE0138E00447B70 /* (friends challenge) champ.png */; };
+		3CB63A711AE0138E00447B70 /* (friends challenge) inprogress.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB63A511AE0138E00447B70 /* (friends challenge) inprogress.png */; };
+		3CB63A721AE0138E00447B70 /* (friends leaderboard) alex.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB63A521AE0138E00447B70 /* (friends leaderboard) alex.png */; };
+		3CB63A731AE0138E00447B70 /* (friends leaderboard) jay.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB63A531AE0138E00447B70 /* (friends leaderboard) jay.png */; };
+		3CB63A741AE0138E00447B70 /* (friends leaderboard) mitchel.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB63A541AE0138E00447B70 /* (friends leaderboard) mitchel.png */; };
+		3CB63A751AE0138E00447B70 /* (home) frog.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB63A551AE0138E00447B70 /* (home) frog.png */; };
+		3CB63A761AE0138E00447B70 /* (home) hippo.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB63A561AE0138E00447B70 /* (home) hippo.png */; };
+		3CB63A771AE0138E00447B70 /* (menu) about.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB63A571AE0138E00447B70 /* (menu) about.png */; };
+		3CB63A781AE0138E00447B70 /* (menu) friends.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB63A581AE0138E00447B70 /* (menu) friends.png */; };
+		3CB63A791AE0138E00447B70 /* (menu) home.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB63A591AE0138E00447B70 /* (menu) home.png */; };
+		3CB63A7A1AE0138E00447B70 /* (menu) invite.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB63A5A1AE0138E00447B70 /* (menu) invite.png */; };
+		3CB63A7B1AE0138E00447B70 /* (menu) notification.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB63A5B1AE0138E00447B70 /* (menu) notification.png */; };
+		3CB63A7C1AE0138E00447B70 /* (menu) settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB63A5C1AE0138E00447B70 /* (menu) settings.png */; };
+		3CB63A7D1AE0138E00447B70 /* (menu) tips.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB63A5D1AE0138E00447B70 /* (menu) tips.png */; };
+		3CB63A801AE01A1000447B70 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB63A7F1AE01A1000447B70 /* MenuViewController.m */; };
+		3CB63A821AE01C5A00447B70 /* Phil.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3CB63A811AE01C5A00447B70 /* Phil.jpg */; };
+		3CCB76CA1ADC8E3900BED9E8 /* JBBarChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CCB76C51ADC8E3900BED9E8 /* JBBarChartView.m */; };
+		3CCB76CB1ADC8E3900BED9E8 /* JBChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CCB76C71ADC8E3900BED9E8 /* JBChartView.m */; };
+		3CCB76CC1ADC8E3900BED9E8 /* JBLineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CCB76C91ADC8E3900BED9E8 /* JBLineChartView.m */; };
+		3CCB76CF1ADD34D800BED9E8 /* DLPieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CCB76CE1ADD34D800BED9E8 /* DLPieChart.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,21 +108,58 @@
 		3CA7E3D11AD33FEB00432446 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3CA7E3D21AD33FEB00432446 /* WatermelonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WatermelonTests.m; sourceTree = "<group>"; };
 		3CA7E3DE1AD342F200432446 /* sea.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sea.jpg; sourceTree = "<group>"; };
-		3CA7E3E01AD34AED00432446 /* blue background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "blue background.jpg"; sourceTree = "<group>"; };
 		3CA7E3E21AD34B8700432446 /* gray backgound.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "gray backgound.jpg"; sourceTree = "<group>"; };
-		3CA7E3E41AD34BE100432446 /* 1367618.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1367618.jpg; sourceTree = "<group>"; };
 		3CA7E3E61AD3591B00432446 /* logo2 (1).bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = "logo2 (1).bmp"; sourceTree = "<group>"; };
 		3CA7E3E81AD359F800432446 /* Light-Grey-Background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Light-Grey-Background.jpg"; sourceTree = "<group>"; };
 		3CA7E3EA1AD35CD200432446 /* blurredsea.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blurredsea.png; sourceTree = "<group>"; };
 		3CA7E3EC1AD35DFB00432446 /* philcircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = philcircle.png; sourceTree = "<group>"; };
-		3CA7E3EE1AD3681000432446 /* cliffriver.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cliffriver.jpg; sourceTree = "<group>"; };
-		3CA7E3F01AD368A600432446 /* blurcliff.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blurcliff.jpg; sourceTree = "<group>"; };
 		3CA7E3F21AD3714200432446 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
-		3CA7E3F41AD3727C00432446 /* white sands.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "white sands.jpg"; sourceTree = "<group>"; };
-		3CA7E3F61AD372E200432446 /* whitesands blur.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "whitesands blur.jpg"; sourceTree = "<group>"; };
 		3CA7E3F81AD39FC300432446 /* verticalsea.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = verticalsea.jpg; sourceTree = "<group>"; };
 		3CA7E3FA1AD3B91100432446 /* login with facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login with facebook.png"; sourceTree = "<group>"; };
 		3CA7E3FC1AD3B9CD00432446 /* facebook-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "facebook-icon.png"; sourceTree = "<group>"; };
+		3CB63A3E1AE0138E00447B70 /* (achievement) american.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "(achievement) american.png"; sourceTree = "<group>"; };
+		3CB63A3F1AE0138E00447B70 /* (achievement) locked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "(achievement) locked.png"; sourceTree = "<group>"; };
+		3CB63A401AE0138E00447B70 /* (achievement) unlocked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "(achievement) unlocked.png"; sourceTree = "<group>"; };
+		3CB63A411AE0138E00447B70 /* (achievement)Euro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "(achievement)Euro.png"; sourceTree = "<group>"; };
+		3CB63A421AE0138E00447B70 /* (achievements) frog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "(achievements) frog.png"; sourceTree = "<group>"; };
+		3CB63A431AE0138E00447B70 /* (achievements)koala.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "(achievements)koala.png"; sourceTree = "<group>"; };
+		3CB63A441AE0138E00447B70 /* (add challenge find friends) close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "(add challenge find friends) close.png"; sourceTree = "<group>"; };
+		3CB63A451AE0138E00447B70 /* (add challenge find friends) search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "(add challenge find friends) search.png"; sourceTree = "<group>"; };
+		3CB63A461AE0138E00447B70 /* (bar) achievement.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "(bar) achievement.png"; sourceTree = "<group>"; };
+		3CB63A471AE0138E00447B70 /* (bar) achievement(selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "(bar) achievement(selected.png"; sourceTree = "<group>"; };
+		3CB63A481AE0138E00447B70 /* (bar) challenge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "(bar) challenge.png"; sourceTree = "<group>"; };
+		3CB63A491AE0138E00447B70 /* (bar) friends-selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "(bar) friends-selected.png"; sourceTree = "<group>"; };
+		3CB63A4A1AE0138E00447B70 /* (bar) friends.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "(bar) friends.png"; sourceTree = "<group>"; };
+		3CB63A4B1AE0138E00447B70 /* (bar) graph-selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "(bar) graph-selected.png"; sourceTree = "<group>"; };
+		3CB63A4C1AE0138E00447B70 /* (bar) graph.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "(bar) graph.png"; sourceTree = "<group>"; };
+		3CB63A4D1AE0138E00447B70 /* (bar) home-selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "(bar) home-selected.png"; sourceTree = "<group>"; };
+		3CB63A4E1AE0138E00447B70 /* (bar) home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "(bar) home.png"; sourceTree = "<group>"; };
+		3CB63A4F1AE0138E00447B70 /* (bar) menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "(bar) menu.png"; sourceTree = "<group>"; };
+		3CB63A501AE0138E00447B70 /* (friends challenge) champ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "(friends challenge) champ.png"; sourceTree = "<group>"; };
+		3CB63A511AE0138E00447B70 /* (friends challenge) inprogress.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "(friends challenge) inprogress.png"; sourceTree = "<group>"; };
+		3CB63A521AE0138E00447B70 /* (friends leaderboard) alex.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "(friends leaderboard) alex.png"; sourceTree = "<group>"; };
+		3CB63A531AE0138E00447B70 /* (friends leaderboard) jay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "(friends leaderboard) jay.png"; sourceTree = "<group>"; };
+		3CB63A541AE0138E00447B70 /* (friends leaderboard) mitchel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "(friends leaderboard) mitchel.png"; sourceTree = "<group>"; };
+		3CB63A551AE0138E00447B70 /* (home) frog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "(home) frog.png"; sourceTree = "<group>"; };
+		3CB63A561AE0138E00447B70 /* (home) hippo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "(home) hippo.png"; sourceTree = "<group>"; };
+		3CB63A571AE0138E00447B70 /* (menu) about.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "(menu) about.png"; sourceTree = "<group>"; };
+		3CB63A581AE0138E00447B70 /* (menu) friends.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "(menu) friends.png"; sourceTree = "<group>"; };
+		3CB63A591AE0138E00447B70 /* (menu) home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "(menu) home.png"; sourceTree = "<group>"; };
+		3CB63A5A1AE0138E00447B70 /* (menu) invite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "(menu) invite.png"; sourceTree = "<group>"; };
+		3CB63A5B1AE0138E00447B70 /* (menu) notification.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "(menu) notification.png"; sourceTree = "<group>"; };
+		3CB63A5C1AE0138E00447B70 /* (menu) settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "(menu) settings.png"; sourceTree = "<group>"; };
+		3CB63A5D1AE0138E00447B70 /* (menu) tips.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "(menu) tips.png"; sourceTree = "<group>"; };
+		3CB63A7E1AE01A1000447B70 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		3CB63A7F1AE01A1000447B70 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		3CB63A811AE01C5A00447B70 /* Phil.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Phil.jpg; sourceTree = "<group>"; };
+		3CCB76C41ADC8E3900BED9E8 /* JBBarChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JBBarChartView.h; path = "../JBChartView-master/Classes/JBBarChartView.h"; sourceTree = "<group>"; };
+		3CCB76C51ADC8E3900BED9E8 /* JBBarChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JBBarChartView.m; path = "../JBChartView-master/Classes/JBBarChartView.m"; sourceTree = "<group>"; };
+		3CCB76C61ADC8E3900BED9E8 /* JBChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JBChartView.h; path = "../JBChartView-master/Classes/JBChartView.h"; sourceTree = "<group>"; };
+		3CCB76C71ADC8E3900BED9E8 /* JBChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JBChartView.m; path = "../JBChartView-master/Classes/JBChartView.m"; sourceTree = "<group>"; };
+		3CCB76C81ADC8E3900BED9E8 /* JBLineChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JBLineChartView.h; path = "../JBChartView-master/Classes/JBLineChartView.h"; sourceTree = "<group>"; };
+		3CCB76C91ADC8E3900BED9E8 /* JBLineChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JBLineChartView.m; path = "../JBChartView-master/Classes/JBLineChartView.m"; sourceTree = "<group>"; };
+		3CCB76CD1ADD34D800BED9E8 /* DLPieChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLPieChart.h; sourceTree = "<group>"; };
+		3CCB76CE1ADD34D800BED9E8 /* DLPieChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLPieChart.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +217,16 @@
 		3CA7E3B51AD33FEB00432446 /* Watermelon */ = {
 			isa = PBXGroup;
 			children = (
+				3CCB76CD1ADD34D800BED9E8 /* DLPieChart.h */,
+				3CCB76CE1ADD34D800BED9E8 /* DLPieChart.m */,
+				3CCB76C41ADC8E3900BED9E8 /* JBBarChartView.h */,
+				3CCB76C51ADC8E3900BED9E8 /* JBBarChartView.m */,
+				3CCB76C61ADC8E3900BED9E8 /* JBChartView.h */,
+				3CCB76C71ADC8E3900BED9E8 /* JBChartView.m */,
+				3CCB76C81ADC8E3900BED9E8 /* JBLineChartView.h */,
+				3CCB76C91ADC8E3900BED9E8 /* JBLineChartView.m */,
+				3CB63A7E1AE01A1000447B70 /* MenuViewController.h */,
+				3CB63A7F1AE01A1000447B70 /* MenuViewController.m */,
 				3CA7E3BA1AD33FEB00432446 /* AppDelegate.h */,
 				3CA7E3BB1AD33FEB00432446 /* AppDelegate.m */,
 				3CA7E3BD1AD33FEB00432446 /* ViewController.h */,
@@ -165,21 +244,48 @@
 		3CA7E3B61AD33FEB00432446 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				3CA7E3E01AD34AED00432446 /* blue background.jpg */,
-				3CA7E3EE1AD3681000432446 /* cliffriver.jpg */,
-				3CA7E3F01AD368A600432446 /* blurcliff.jpg */,
+				3CB63A811AE01C5A00447B70 /* Phil.jpg */,
 				3CA7E3FA1AD3B91100432446 /* login with facebook.png */,
-				3CA7E3F41AD3727C00432446 /* white sands.jpg */,
 				3CA7E3F81AD39FC300432446 /* verticalsea.jpg */,
-				3CA7E3F61AD372E200432446 /* whitesands blur.jpg */,
 				3CA7E3E61AD3591B00432446 /* logo2 (1).bmp */,
 				3CA7E3FC1AD3B9CD00432446 /* facebook-icon.png */,
+				3CB63A3E1AE0138E00447B70 /* (achievement) american.png */,
+				3CB63A3F1AE0138E00447B70 /* (achievement) locked.png */,
+				3CB63A401AE0138E00447B70 /* (achievement) unlocked.png */,
+				3CB63A411AE0138E00447B70 /* (achievement)Euro.png */,
+				3CB63A421AE0138E00447B70 /* (achievements) frog.png */,
+				3CB63A431AE0138E00447B70 /* (achievements)koala.png */,
+				3CB63A441AE0138E00447B70 /* (add challenge find friends) close.png */,
+				3CB63A451AE0138E00447B70 /* (add challenge find friends) search.png */,
+				3CB63A461AE0138E00447B70 /* (bar) achievement.png */,
+				3CB63A471AE0138E00447B70 /* (bar) achievement(selected.png */,
+				3CB63A481AE0138E00447B70 /* (bar) challenge.png */,
+				3CB63A491AE0138E00447B70 /* (bar) friends-selected.png */,
+				3CB63A4A1AE0138E00447B70 /* (bar) friends.png */,
+				3CB63A4B1AE0138E00447B70 /* (bar) graph-selected.png */,
+				3CB63A4C1AE0138E00447B70 /* (bar) graph.png */,
+				3CB63A4D1AE0138E00447B70 /* (bar) home-selected.png */,
+				3CB63A4E1AE0138E00447B70 /* (bar) home.png */,
+				3CB63A4F1AE0138E00447B70 /* (bar) menu.png */,
+				3CB63A501AE0138E00447B70 /* (friends challenge) champ.png */,
+				3CB63A511AE0138E00447B70 /* (friends challenge) inprogress.png */,
+				3CB63A521AE0138E00447B70 /* (friends leaderboard) alex.png */,
+				3CB63A531AE0138E00447B70 /* (friends leaderboard) jay.png */,
+				3CB63A541AE0138E00447B70 /* (friends leaderboard) mitchel.png */,
+				3CB63A551AE0138E00447B70 /* (home) frog.png */,
+				3CB63A561AE0138E00447B70 /* (home) hippo.png */,
+				3CB63A571AE0138E00447B70 /* (menu) about.png */,
+				3CB63A581AE0138E00447B70 /* (menu) friends.png */,
+				3CB63A591AE0138E00447B70 /* (menu) home.png */,
+				3CB63A5A1AE0138E00447B70 /* (menu) invite.png */,
+				3CB63A5B1AE0138E00447B70 /* (menu) notification.png */,
+				3CB63A5C1AE0138E00447B70 /* (menu) settings.png */,
+				3CB63A5D1AE0138E00447B70 /* (menu) tips.png */,
 				3CA7E3F21AD3714200432446 /* logo.png */,
 				3CA7E3EA1AD35CD200432446 /* blurredsea.png */,
 				3CA7E3EC1AD35DFB00432446 /* philcircle.png */,
 				3CA7E3E21AD34B8700432446 /* gray backgound.jpg */,
 				3CA7E3E81AD359F800432446 /* Light-Grey-Background.jpg */,
-				3CA7E3E41AD34BE100432446 /* 1367618.jpg */,
 				3CA7E3DE1AD342F200432446 /* sea.jpg */,
 				3CA7E3B71AD33FEB00432446 /* Info.plist */,
 				3CA7E3B81AD33FEB00432446 /* main.m */,
@@ -285,24 +391,51 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CB63A771AE0138E00447B70 /* (menu) about.png in Resources */,
+				3CB63A6B1AE0138E00447B70 /* (bar) graph-selected.png in Resources */,
 				3CA7E3F91AD39FC300432446 /* verticalsea.jpg in Resources */,
 				3CA7E3ED1AD35DFB00432446 /* philcircle.png in Resources */,
-				3CA7E3F71AD372E200432446 /* whitesands blur.jpg in Resources */,
+				3CB63A781AE0138E00447B70 /* (menu) friends.png in Resources */,
+				3CB63A751AE0138E00447B70 /* (home) frog.png in Resources */,
 				3CA7E3C21AD33FEB00432446 /* Main.storyboard in Resources */,
+				3CB63A6D1AE0138E00447B70 /* (bar) home-selected.png in Resources */,
+				3CB63A821AE01C5A00447B70 /* Phil.jpg in Resources */,
+				3CB63A7A1AE0138E00447B70 /* (menu) invite.png in Resources */,
+				3CB63A601AE0138E00447B70 /* (achievement) unlocked.png in Resources */,
+				3CB63A621AE0138E00447B70 /* (achievements) frog.png in Resources */,
+				3CB63A6E1AE0138E00447B70 /* (bar) home.png in Resources */,
+				3CB63A641AE0138E00447B70 /* (add challenge find friends) close.png in Resources */,
+				3CB63A661AE0138E00447B70 /* (bar) achievement.png in Resources */,
 				3CA7E3DF1AD342F200432446 /* sea.jpg in Resources */,
+				3CB63A7B1AE0138E00447B70 /* (menu) notification.png in Resources */,
+				3CB63A721AE0138E00447B70 /* (friends leaderboard) alex.png in Resources */,
 				3CA7E3E31AD34B8700432446 /* gray backgound.jpg in Resources */,
+				3CB63A691AE0138E00447B70 /* (bar) friends-selected.png in Resources */,
 				3CA7E3F31AD3714200432446 /* logo.png in Resources */,
-				3CA7E3E51AD34BE100432446 /* 1367618.jpg in Resources */,
-				3CA7E3F51AD3727C00432446 /* white sands.jpg in Resources */,
-				3CA7E3EF1AD3681000432446 /* cliffriver.jpg in Resources */,
+				3CB63A6F1AE0138E00447B70 /* (bar) menu.png in Resources */,
+				3CB63A791AE0138E00447B70 /* (menu) home.png in Resources */,
+				3CB63A701AE0138E00447B70 /* (friends challenge) champ.png in Resources */,
 				3CA7E3C71AD33FEB00432446 /* LaunchScreen.xib in Resources */,
 				3CA7E3FB1AD3B91100432446 /* login with facebook.png in Resources */,
 				3CA7E3C41AD33FEB00432446 /* Images.xcassets in Resources */,
-				3CA7E3F11AD368A600432446 /* blurcliff.jpg in Resources */,
+				3CB63A731AE0138E00447B70 /* (friends leaderboard) jay.png in Resources */,
+				3CB63A671AE0138E00447B70 /* (bar) achievement(selected.png in Resources */,
+				3CB63A7D1AE0138E00447B70 /* (menu) tips.png in Resources */,
 				3CA7E3E91AD359F800432446 /* Light-Grey-Background.jpg in Resources */,
-				3CA7E3E11AD34AED00432446 /* blue background.jpg in Resources */,
+				3CB63A761AE0138E00447B70 /* (home) hippo.png in Resources */,
+				3CB63A6A1AE0138E00447B70 /* (bar) friends.png in Resources */,
+				3CB63A631AE0138E00447B70 /* (achievements)koala.png in Resources */,
+				3CB63A681AE0138E00447B70 /* (bar) challenge.png in Resources */,
+				3CB63A5E1AE0138E00447B70 /* (achievement) american.png in Resources */,
+				3CB63A5F1AE0138E00447B70 /* (achievement) locked.png in Resources */,
+				3CB63A741AE0138E00447B70 /* (friends leaderboard) mitchel.png in Resources */,
+				3CB63A7C1AE0138E00447B70 /* (menu) settings.png in Resources */,
 				3CA7E3FD1AD3B9CD00432446 /* facebook-icon.png in Resources */,
+				3CB63A711AE0138E00447B70 /* (friends challenge) inprogress.png in Resources */,
 				3CA7E3EB1AD35CD200432446 /* blurredsea.png in Resources */,
+				3CB63A6C1AE0138E00447B70 /* (bar) graph.png in Resources */,
+				3CB63A651AE0138E00447B70 /* (add challenge find friends) search.png in Resources */,
+				3CB63A611AE0138E00447B70 /* (achievement)Euro.png in Resources */,
 				3CA7E3E71AD3591B00432446 /* logo2 (1).bmp in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -322,9 +455,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C45394F1AD4ADDF0038DD1D /* TrackViewController.m in Sources */,
+				3CB63A801AE01A1000447B70 /* MenuViewController.m in Sources */,
+				3CCB76CB1ADC8E3900BED9E8 /* JBChartView.m in Sources */,
+				3CCB76CC1ADC8E3900BED9E8 /* JBLineChartView.m in Sources */,
+				3CCB76CA1ADC8E3900BED9E8 /* JBBarChartView.m in Sources */,
 				3CA7E3BF1AD33FEB00432446 /* ViewController.m in Sources */,
 				3CA7E3BC1AD33FEB00432446 /* AppDelegate.m in Sources */,
 				3CA7E3B91AD33FEB00432446 /* main.m in Sources */,
+				3CCB76CF1ADD34D800BED9E8 /* DLPieChart.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,6 +589,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					/Users/ian/Downloads/GraphX/Source/build/Deployment,
 				);
 				INFOPLIST_FILE = Watermelon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -466,6 +605,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					/Users/ian/Downloads/GraphX/Source/build/Deployment,
 				);
 				INFOPLIST_FILE = Watermelon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
