@@ -12,9 +12,9 @@
 @implementation MenuViewController
 
 
-@synthesize phil,gallonspie;
+@synthesize phil,gallonspie,circle;
 
-NSString *const fireurl2 = @"https://watermelearn.firebaseio.com/sensor";
+NSString *const fireurl2 = @"https://watermelearn.firebaseio.com/null";
 
 
 - (void)viewDidLoad {
@@ -23,14 +23,18 @@ NSString *const fireurl2 = @"https://watermelearn.firebaseio.com/sensor";
     Firebase *ref = [[Firebase alloc] initWithUrl: fireurl2];
     phil.layer.cornerRadius = phil.frame.size.width/2;
     phil.layer.masksToBounds = YES;
+    [self.gallonspie setShowPercentage:FALSE];
+    [self.gallonspie setShowLabel:FALSE];
      [ref observeSingleEventOfType:FEventTypeValue withBlock:^(FDataSnapshot *snapshot) {
          [self renderPie];
      }];
-      
+    circle.layer.cornerRadius = 62;
+    circle.layer.masksToBounds = YES;
+    NSLog(@"%f",self.gallonspie.layer.frame.size.height);
+    NSLog(@"%f",self.hippo.layer.frame.size.height);
 }
 -(void) renderPie {
-    [self.gallonspie setShowPercentage:FALSE];
-    [self.gallonspie setShowLabel:FALSE];
+    
     [self.gallonspie reloadData];
      [self.gallonspie renderInLayer:self.gallonspie dataArray:[[NSMutableArray alloc]initWithObjects:[NSNumber numberWithInt:153],[NSNumber numberWithInt:(350-153)], nil]];
 }

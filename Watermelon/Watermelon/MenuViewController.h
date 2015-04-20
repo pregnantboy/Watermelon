@@ -11,5 +11,7 @@
 @interface MenuViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UIImageView *phil;
 @property (weak, nonatomic) IBOutlet DLPieChart *gallonspie;
+@property (weak, nonatomic) IBOutlet UIView *circle;
+@property (weak, nonatomic) IBOutlet UIImageView *hippo;
 
 @end

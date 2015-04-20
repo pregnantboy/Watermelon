@@ -15,6 +15,7 @@
 		3C29F8B11AD4913100E9EB7C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C29F8B01AD4913000E9EB7C /* SystemConfiguration.framework */; };
 		3C29F8B31AD4914100E9EB7C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C29F8B21AD4914100E9EB7C /* QuartzCore.framework */; };
 		3C45394F1AD4ADDF0038DD1D /* TrackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C45394E1AD4ADDF0038DD1D /* TrackViewController.m */; };
+		3C5F35D81AE5C8B500710197 /* AchievementViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C5F35D71AE5C8B500710197 /* AchievementViewController.m */; };
 		3C80506C1AD49F29006583DC /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C80506B1AD49F29006583DC /* Accelerate.framework */; };
 		3CA7E3B91AD33FEB00432446 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA7E3B81AD33FEB00432446 /* main.m */; };
 		3CA7E3BC1AD33FEB00432446 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA7E3BB1AD33FEB00432446 /* AppDelegate.m */; };
@@ -93,6 +94,8 @@
 		3C29F8B21AD4914100E9EB7C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		3C45394D1AD4ADDF0038DD1D /* TrackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackViewController.h; sourceTree = "<group>"; };
 		3C45394E1AD4ADDF0038DD1D /* TrackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrackViewController.m; sourceTree = "<group>"; };
+		3C5F35D61AE5C8B500710197 /* AchievementViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AchievementViewController.h; sourceTree = "<group>"; };
+		3C5F35D71AE5C8B500710197 /* AchievementViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AchievementViewController.m; sourceTree = "<group>"; };
 		3C80506B1AD49F29006583DC /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		3CA7E3B31AD33FEB00432446 /* Watermelon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Watermelon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CA7E3B71AD33FEB00432446 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -225,6 +228,8 @@
 				3CCB76C71ADC8E3900BED9E8 /* JBChartView.m */,
 				3CCB76C81ADC8E3900BED9E8 /* JBLineChartView.h */,
 				3CCB76C91ADC8E3900BED9E8 /* JBLineChartView.m */,
+				3C5F35D61AE5C8B500710197 /* AchievementViewController.h */,
+				3C5F35D71AE5C8B500710197 /* AchievementViewController.m */,
 				3CB63A7E1AE01A1000447B70 /* MenuViewController.h */,
 				3CB63A7F1AE01A1000447B70 /* MenuViewController.m */,
 				3CA7E3BA1AD33FEB00432446 /* AppDelegate.h */,
@@ -462,6 +467,7 @@
 				3CA7E3BF1AD33FEB00432446 /* ViewController.m in Sources */,
 				3CA7E3BC1AD33FEB00432446 /* AppDelegate.m in Sources */,
 				3CA7E3B91AD33FEB00432446 /* main.m in Sources */,
+				3C5F35D81AE5C8B500710197 /* AchievementViewController.m in Sources */,
 				3CCB76CF1ADD34D800BED9E8 /* DLPieChart.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

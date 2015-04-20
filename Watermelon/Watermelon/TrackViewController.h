@@ -21,7 +21,7 @@
 @property (strong, nonatomic) IBOutlet UISegmentedControl *tabs;
 @property (weak, nonatomic) IBOutlet UIView *gridView;
 @property (weak, nonatomic) IBOutlet UILabel *todayousaved;
-@property (retain, strong) IBOutlet DLPieChart *piechartberkeley;
+@property (weak, nonatomic) IBOutlet DLPieChart *piechartberkeley;
 @property (weak, nonatomic) IBOutlet UIView *piechartview;
 @property (weak, nonatomic) IBOutlet DLPieChart *piechartcal;
 @property (weak, nonatomic) IBOutlet UIView *circ1;

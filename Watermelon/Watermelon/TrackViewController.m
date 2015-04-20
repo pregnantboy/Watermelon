@@ -99,8 +99,7 @@ double gallons = 2.5;
     self.timeStamp = [[NSMutableArray alloc] init];
  
     [ref observeSingleEventOfType:FEventTypeValue withBlock:^(FDataSnapshot *snapshot) {
-        [self setpie1:30 setpie2:54];
-        [self showfirst:@"30%" showsecond:@"54%"];
+        
         lineChartView2.alpha = 0;
         barChartView2.alpha =0;
         lineChartview.alpha = 1;
@@ -125,6 +124,8 @@ double gallons = 2.5;
             [self.labelviews addObject:label];
         }
         todayousaved.text = @"Today you saved more water than";
+        [self setpie1:30 setpie2:54];
+        [self showfirst:@"30%" showsecond:@"54%"];
         
     }];
     [ref observeEventType:FEventTypeChildAdded withBlock:^(FDataSnapshot *snapshot) {
@@ -285,24 +286,48 @@ double gallons = 2.5;
 
 
 - (UIColor *)barChartView:(JBBarChartView *)barChartView colorForBarViewAtIndex:(NSUInteger)index{
-    if (index == 0){
-        if ([self.duration count]>2){
-            int height1 = [[self.duration objectAtIndex:0]intValue];
-            int height2 = [[self.duration objectAtIndex:1]intValue];
-            if (height1<=height2) return [UIColor  colorWithRed:83/255.0 green:215/255.0 blue:148/255.0 alpha:0.9];
-            else return [UIColor  colorWithRed:231/255.0 green:126/255.0 blue:120/255.0 alpha:1];
+     if(tabs.selectedSegmentIndex==0){
+         if (index == 0){
+             if ([self.duration count]>2){
+                 int height1 = [[self.duration objectAtIndex:0]intValue];
+                 int height2 = [[self.duration objectAtIndex:1]intValue];
+                 if (height1<=height2) return [UIColor  colorWithRed:83/255.0 green:215/255.0 blue:148/255.0 alpha:0.9];
+                 else return [UIColor  colorWithRed:231/255.0 green:126/255.0 blue:120/255.0 alpha:1];
 
-        }
-        else return [UIColor colorWithRed:25/255.0 green:181/255.0 blue:254/255.0 alpha:1];
+             }
+                else return [UIColor colorWithRed:25/255.0 green:181/255.0 blue:254/255.0 alpha:1];
 
-    }
-    if (index == 1){
+         }
+        if (index == 1){
         //return [UIColor colorWithRed:129/255.0 green:207/255.0 blue:224/255.0 alpha:1];
-        return [UIColor colorWithRed:25/255.0 green:181/255.0 blue:254/255.0 alpha:1];
+                return [UIColor colorWithRed:25/255.0 green:181/255.0 blue:254/255.0 alpha:1];
+        }
+        else {
+            return [UIColor whiteColor];
+        }
+     }
+    else{
+        if (index == 0){
+            if ([self.weekdata count]>2){
+                int height1 = [[self.weekdata objectAtIndex:0]intValue];
+                int height2 = [[self.weekdata objectAtIndex:1]intValue];
+                if (height1<=height2) return [UIColor  colorWithRed:83/255.0 green:215/255.0 blue:148/255.0 alpha:0.9];
+                else return [UIColor  colorWithRed:231/255.0 green:126/255.0 blue:120/255.0 alpha:1];
+                
+            }
+            else return [UIColor colorWithRed:25/255.0 green:181/255.0 blue:254/255.0 alpha:1];
+            
+        }
+        if (index == 1){
+            //return [UIColor colorWithRed:129/255.0 green:207/255.0 blue:224/255.0 alpha:1];
+            return [UIColor colorWithRed:25/255.0 green:181/255.0 blue:254/255.0 alpha:1];
+        }
+        else {
+            return [UIColor whiteColor];
+        }
     }
-    else {
-        return [UIColor whiteColor];
-    }
+    
+    
 }
 
 - (UIColor *)lineChartView:(JBLineChartView *)lineChartView colorForLineAtLineIndex:(NSUInteger)lineIndex

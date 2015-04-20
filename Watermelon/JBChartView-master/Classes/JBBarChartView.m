@@ -231,6 +231,7 @@ static UIColor *kJBBarChartViewDefaultBarColor = nil;
                 if (gallonssaved==[self maximumValue]){
                     valuelabel.text= NULL;
                 }
+                
                 valuelabel.font = [valuelabel.font fontWithSize:12];
                 valuelabel.textAlignment = UITextAlignmentCenter;
                 valuelabel.textColor = [UIColor whiteColor];
