@@ -14,6 +14,9 @@
 		3C29F8AF1AD4912500E9EB7C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C29F8AE1AD4912500E9EB7C /* Security.framework */; };
 		3C29F8B11AD4913100E9EB7C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C29F8B01AD4913000E9EB7C /* SystemConfiguration.framework */; };
 		3C29F8B31AD4914100E9EB7C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C29F8B21AD4914100E9EB7C /* QuartzCore.framework */; };
+		3C35A38E1AE8BC4600608FA8 /* LeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C35A38D1AE8BC4600608FA8 /* LeaderCell.m */; };
+		3C3F06E41AE780B3009B8B41 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C3F06E31AE780B3009B8B41 /* CustomCell.m */; };
+		3C3F06E71AE7ABBC009B8B41 /* FriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C3F06E61AE7ABBC009B8B41 /* FriendsViewController.m */; };
 		3C45394F1AD4ADDF0038DD1D /* TrackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C45394E1AD4ADDF0038DD1D /* TrackViewController.m */; };
 		3C5F35D81AE5C8B500710197 /* AchievementViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C5F35D71AE5C8B500710197 /* AchievementViewController.m */; };
 		3C80506C1AD49F29006583DC /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C80506B1AD49F29006583DC /* Accelerate.framework */; };
@@ -92,6 +95,12 @@
 		3C29F8AE1AD4912500E9EB7C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		3C29F8B01AD4913000E9EB7C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		3C29F8B21AD4914100E9EB7C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		3C35A38C1AE8BC4600608FA8 /* LeaderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeaderCell.h; sourceTree = "<group>"; };
+		3C35A38D1AE8BC4600608FA8 /* LeaderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeaderCell.m; sourceTree = "<group>"; };
+		3C3F06E21AE780B3009B8B41 /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		3C3F06E31AE780B3009B8B41 /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		3C3F06E51AE7ABBC009B8B41 /* FriendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendsViewController.h; sourceTree = "<group>"; };
+		3C3F06E61AE7ABBC009B8B41 /* FriendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendsViewController.m; sourceTree = "<group>"; };
 		3C45394D1AD4ADDF0038DD1D /* TrackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackViewController.h; sourceTree = "<group>"; };
 		3C45394E1AD4ADDF0038DD1D /* TrackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrackViewController.m; sourceTree = "<group>"; };
 		3C5F35D61AE5C8B500710197 /* AchievementViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AchievementViewController.h; sourceTree = "<group>"; };
@@ -226,6 +235,12 @@
 				3CCB76C51ADC8E3900BED9E8 /* JBBarChartView.m */,
 				3CCB76C61ADC8E3900BED9E8 /* JBChartView.h */,
 				3CCB76C71ADC8E3900BED9E8 /* JBChartView.m */,
+				3C3F06E21AE780B3009B8B41 /* CustomCell.h */,
+				3C3F06E31AE780B3009B8B41 /* CustomCell.m */,
+				3C3F06E51AE7ABBC009B8B41 /* FriendsViewController.h */,
+				3C3F06E61AE7ABBC009B8B41 /* FriendsViewController.m */,
+				3C35A38C1AE8BC4600608FA8 /* LeaderCell.h */,
+				3C35A38D1AE8BC4600608FA8 /* LeaderCell.m */,
 				3CCB76C81ADC8E3900BED9E8 /* JBLineChartView.h */,
 				3CCB76C91ADC8E3900BED9E8 /* JBLineChartView.m */,
 				3C5F35D61AE5C8B500710197 /* AchievementViewController.h */,
@@ -364,6 +379,7 @@
 				TargetAttributes = {
 					3CA7E3B21AD33FEB00432446 = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = W7BDRVLLQN;
 					};
 					3CA7E3CB1AD33FEB00432446 = {
 						CreatedOnToolsVersion = 6.2;
@@ -459,9 +475,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C3F06E71AE7ABBC009B8B41 /* FriendsViewController.m in Sources */,
 				3C45394F1AD4ADDF0038DD1D /* TrackViewController.m in Sources */,
 				3CB63A801AE01A1000447B70 /* MenuViewController.m in Sources */,
+				3C3F06E41AE780B3009B8B41 /* CustomCell.m in Sources */,
 				3CCB76CB1ADC8E3900BED9E8 /* JBChartView.m in Sources */,
+				3C35A38E1AE8BC4600608FA8 /* LeaderCell.m in Sources */,
 				3CCB76CC1ADC8E3900BED9E8 /* JBLineChartView.m in Sources */,
 				3CCB76CA1ADC8E3900BED9E8 /* JBBarChartView.m in Sources */,
 				3CA7E3BF1AD33FEB00432446 /* ViewController.m in Sources */,
@@ -592,15 +611,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 					/Users/ian/Downloads/GraphX/Source/build/Deployment,
 				);
 				INFOPLIST_FILE = Watermelon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -608,15 +631,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 					/Users/ian/Downloads/GraphX/Source/build/Deployment,
 				);
 				INFOPLIST_FILE = Watermelon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

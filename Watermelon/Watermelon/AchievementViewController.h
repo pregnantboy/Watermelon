@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CustomCell.h"
 
 @interface AchievementViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
+
 
 @end

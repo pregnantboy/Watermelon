@@ -16,7 +16,7 @@
 
 @synthesize barChartView, timeStamp,duration,lineChartview,tabs, gridView,piechartberkeley,berkeleyusers,calusers, todayousaved,piechartcal,circ1,circ2,calperc,berkperc, monthdata,weekdata,barChartView2,lineChartView2,labelviews;
 NSString *const fireurl = @"https://watermelearn.firebaseio.com/sensor";
-double gallons = 2.5;
+double gallons = 1.0;
 
 - (void)viewDidLoad {
     
@@ -47,7 +47,7 @@ double gallons = 2.5;
     barChartView2.maximumValue = 150;
     
     lineChartView2.maximumValue = 150;
-    int goal = 200;
+    int goal = 80;
     UIView *goalframe = [[UIView alloc]initWithFrame:CGRectMake(barChartView.frame.origin.x-50, barChartView.frame.origin.y + (barChartView.frame.size.height - barChartView.frame.size.height*(goal/barChartView.maximumValue)), barChartView.frame.size.width+25, barChartView.frame.size.height*(goal/barChartView.maximumValue))];
     goalframe.backgroundColor = [UIColor blueColor];
     circ1.layer.cornerRadius = 55;
@@ -95,7 +95,7 @@ double gallons = 2.5;
     barChartView.delegate = self;
     lineChartview.dataSource = self;
     lineChartview.delegate = self;
-       Firebase *ref = [[Firebase alloc] initWithUrl: fireurl];
+        Firebase *ref = [[Firebase alloc] initWithUrl: fireurl];
     self.timeStamp = [[NSMutableArray alloc] init];
  
     [ref observeSingleEventOfType:FEventTypeValue withBlock:^(FDataSnapshot *snapshot) {
@@ -142,6 +142,8 @@ double gallons = 2.5;
                 //NSLog(@"error in timestamp %@", snapshot.key);
             }
         }
+        [barChartView reloadData];
+        [lineChartview reloadData];
     
     }];
     
@@ -153,9 +155,9 @@ double gallons = 2.5;
     
     //barChartView.layer.borderWidth = 1;
     
-    barChartView.maximumValue = 320;
+    barChartView.maximumValue = 200;
     
-    lineChartview.maximumValue = 320;
+    lineChartview.maximumValue = 200;
     
     
     
@@ -394,7 +396,7 @@ double gallons = 2.5;
 {
     if(tabs.selectedSegmentIndex==0){
         if (lineIndex==1){
-            return 200;
+            return 100;
         }
         if ([self.duration count] > horizontalIndex)  {
             int height = [[self.duration objectAtIndex: horizontalIndex] intValue];

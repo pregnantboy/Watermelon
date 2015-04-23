@@ -227,7 +227,8 @@ static UIColor *kJBBarChartViewDefaultBarColor = nil;
 			else
 			{
                 UILabel *valuelabel =[[UILabel alloc]initWithFrame:CGRectMake(xOffset+([self barWidth]/2)-20    , self.bounds.size.height - height - self.footerView.frame.size.height - 20 , 40,20)];
-                valuelabel.text = [NSString stringWithFormat: @"%d", gallonssaved];
+                //valuelabel.text = [NSString stringWithFormat: @"%d", gallonssaved];
+                valuelabel.text = @"";
                 if (gallonssaved==[self maximumValue]){
                     valuelabel.text= NULL;
                 }
