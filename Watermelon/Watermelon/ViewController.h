@@ -18,6 +18,7 @@
 @property (weak, nonatomic) IBOutlet UIView *loginview;
 @property (weak, nonatomic) IBOutlet UIView *login;
 @property (weak, nonatomic) IBOutlet UIButton *loginwithfb;
+@property (weak, nonatomic) IBOutlet UIButton *loginwithout;
 
 @end
 

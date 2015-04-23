@@ -15,7 +15,7 @@
 @implementation TrackViewController
 
 @synthesize barChartView, timeStamp,duration,lineChartview,tabs, gridView,piechartberkeley,berkeleyusers,calusers, todayousaved,piechartcal,circ1,circ2,calperc,berkperc, monthdata,weekdata,barChartView2,lineChartView2,labelviews;
-NSString *const fireurl = @"https://watermelearn.firebaseio.com/sensor";
+NSString *const fireurl = @"https://watermelearn.firebaseio.com/sensor2";
 double gallons = 1.0;
 
 - (void)viewDidLoad {

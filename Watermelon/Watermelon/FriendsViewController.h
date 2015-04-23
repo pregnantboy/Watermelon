@@ -11,5 +11,6 @@
 @interface FriendsViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UIImageView *Phil;
 @property (weak, nonatomic) IBOutlet UITableView *leaderTable;
+@property (weak, nonatomic) IBOutlet UISegmentedControl *tabs2;
 
 @end

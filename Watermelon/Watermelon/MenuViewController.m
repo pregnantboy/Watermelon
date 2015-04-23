@@ -30,13 +30,11 @@ NSString *const fireurl2 = @"https://watermelearn.firebaseio.com/null";
      }];
     circle.layer.cornerRadius = 62;
     circle.layer.masksToBounds = YES;
-    NSLog(@"%f",self.gallonspie.layer.frame.size.height);
-    NSLog(@"%f",self.hippo.layer.frame.size.height);
 }
 -(void) renderPie {
     
     [self.gallonspie reloadData];
-     [self.gallonspie renderInLayer:self.gallonspie dataArray:[[NSMutableArray alloc]initWithObjects:[NSNumber numberWithInt:153],[NSNumber numberWithInt:(350-153)], nil]];
+     [self.gallonspie renderInLayer:self.gallonspie dataArray:[[NSMutableArray alloc]initWithObjects:[NSNumber numberWithInt:85],[NSNumber numberWithInt:(17*7-85)], nil]];
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

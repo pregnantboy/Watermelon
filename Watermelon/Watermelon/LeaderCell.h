@@ -14,5 +14,9 @@
 @property (weak, nonatomic) IBOutlet UILabel *name;
 @property (weak, nonatomic) IBOutlet UILabel *rank;
 @property (weak, nonatomic) IBOutlet UIImageView *pic;
+@property (weak, nonatomic) IBOutlet UIImageView *challengerpic;
+@property (weak, nonatomic) IBOutlet UIImageView *progress;
+@property (weak, nonatomic) IBOutlet UILabel *challengername;
+@property (weak, nonatomic) IBOutlet UILabel *score;
 
 @end

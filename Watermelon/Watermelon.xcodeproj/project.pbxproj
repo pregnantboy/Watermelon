@@ -20,6 +20,7 @@
 		3C45394F1AD4ADDF0038DD1D /* TrackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C45394E1AD4ADDF0038DD1D /* TrackViewController.m */; };
 		3C5F35D81AE5C8B500710197 /* AchievementViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C5F35D71AE5C8B500710197 /* AchievementViewController.m */; };
 		3C80506C1AD49F29006583DC /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C80506B1AD49F29006583DC /* Accelerate.framework */; };
+		3CA6970D1AE8DE0200FFB406 /* verticalseablur.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3CA6970C1AE8DE0200FFB406 /* verticalseablur.jpg */; };
 		3CA7E3B91AD33FEB00432446 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA7E3B81AD33FEB00432446 /* main.m */; };
 		3CA7E3BC1AD33FEB00432446 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA7E3BB1AD33FEB00432446 /* AppDelegate.m */; };
 		3CA7E3BF1AD33FEB00432446 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA7E3BE1AD33FEB00432446 /* ViewController.m */; };
@@ -75,6 +76,8 @@
 		3CCB76CB1ADC8E3900BED9E8 /* JBChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CCB76C71ADC8E3900BED9E8 /* JBChartView.m */; };
 		3CCB76CC1ADC8E3900BED9E8 /* JBLineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CCB76C91ADC8E3900BED9E8 /* JBLineChartView.m */; };
 		3CCB76CF1ADD34D800BED9E8 /* DLPieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CCB76CE1ADD34D800BED9E8 /* DLPieChart.m */; };
+		3CEE2BE61AE9AE7E0011C6C3 /* (achievement) question mark 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CEE2BE41AE9AE7E0011C6C3 /* (achievement) question mark 2.png */; };
+		3CEE2BE71AE9AE7E0011C6C3 /* (achievement) question mark.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CEE2BE51AE9AE7E0011C6C3 /* (achievement) question mark.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -106,6 +109,7 @@
 		3C5F35D61AE5C8B500710197 /* AchievementViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AchievementViewController.h; sourceTree = "<group>"; };
 		3C5F35D71AE5C8B500710197 /* AchievementViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AchievementViewController.m; sourceTree = "<group>"; };
 		3C80506B1AD49F29006583DC /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		3CA6970C1AE8DE0200FFB406 /* verticalseablur.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = verticalseablur.jpg; sourceTree = "<group>"; };
 		3CA7E3B31AD33FEB00432446 /* Watermelon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Watermelon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CA7E3B71AD33FEB00432446 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3CA7E3B81AD33FEB00432446 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -172,6 +176,8 @@
 		3CCB76C91ADC8E3900BED9E8 /* JBLineChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JBLineChartView.m; path = "../JBChartView-master/Classes/JBLineChartView.m"; sourceTree = "<group>"; };
 		3CCB76CD1ADD34D800BED9E8 /* DLPieChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLPieChart.h; sourceTree = "<group>"; };
 		3CCB76CE1ADD34D800BED9E8 /* DLPieChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLPieChart.m; sourceTree = "<group>"; };
+		3CEE2BE41AE9AE7E0011C6C3 /* (achievement) question mark 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "(achievement) question mark 2.png"; sourceTree = "<group>"; };
+		3CEE2BE51AE9AE7E0011C6C3 /* (achievement) question mark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "(achievement) question mark.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -265,7 +271,10 @@
 			isa = PBXGroup;
 			children = (
 				3CB63A811AE01C5A00447B70 /* Phil.jpg */,
+				3CEE2BE41AE9AE7E0011C6C3 /* (achievement) question mark 2.png */,
+				3CEE2BE51AE9AE7E0011C6C3 /* (achievement) question mark.png */,
 				3CA7E3FA1AD3B91100432446 /* login with facebook.png */,
+				3CA6970C1AE8DE0200FFB406 /* verticalseablur.jpg */,
 				3CA7E3F81AD39FC300432446 /* verticalsea.jpg */,
 				3CA7E3E61AD3591B00432446 /* logo2 (1).bmp */,
 				3CA7E3FC1AD3B9CD00432446 /* facebook-icon.png */,
@@ -428,12 +437,14 @@
 				3CB63A641AE0138E00447B70 /* (add challenge find friends) close.png in Resources */,
 				3CB63A661AE0138E00447B70 /* (bar) achievement.png in Resources */,
 				3CA7E3DF1AD342F200432446 /* sea.jpg in Resources */,
+				3CEE2BE71AE9AE7E0011C6C3 /* (achievement) question mark.png in Resources */,
 				3CB63A7B1AE0138E00447B70 /* (menu) notification.png in Resources */,
 				3CB63A721AE0138E00447B70 /* (friends leaderboard) alex.png in Resources */,
 				3CA7E3E31AD34B8700432446 /* gray backgound.jpg in Resources */,
 				3CB63A691AE0138E00447B70 /* (bar) friends-selected.png in Resources */,
 				3CA7E3F31AD3714200432446 /* logo.png in Resources */,
 				3CB63A6F1AE0138E00447B70 /* (bar) menu.png in Resources */,
+				3CA6970D1AE8DE0200FFB406 /* verticalseablur.jpg in Resources */,
 				3CB63A791AE0138E00447B70 /* (menu) home.png in Resources */,
 				3CB63A701AE0138E00447B70 /* (friends challenge) champ.png in Resources */,
 				3CA7E3C71AD33FEB00432446 /* LaunchScreen.xib in Resources */,
@@ -452,6 +463,7 @@
 				3CB63A741AE0138E00447B70 /* (friends leaderboard) mitchel.png in Resources */,
 				3CB63A7C1AE0138E00447B70 /* (menu) settings.png in Resources */,
 				3CA7E3FD1AD3B9CD00432446 /* facebook-icon.png in Resources */,
+				3CEE2BE61AE9AE7E0011C6C3 /* (achievement) question mark 2.png in Resources */,
 				3CB63A711AE0138E00447B70 /* (friends challenge) inprogress.png in Resources */,
 				3CA7E3EB1AD35CD200432446 /* blurredsea.png in Resources */,
 				3CB63A6C1AE0138E00447B70 /* (bar) graph.png in Resources */,

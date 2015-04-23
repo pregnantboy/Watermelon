@@ -9,7 +9,7 @@
 #import "FriendsViewController.h"
 
 @implementation FriendsViewController
-@synthesize Phil, leaderTable;
+@synthesize Phil, leaderTable,tabs2;
 
 - (void)viewDidLoad {
     
@@ -19,24 +19,65 @@
     Phil.layer.masksToBounds = YES;
     
 }
+- (IBAction)tabschanged:(id)sender {
+    [leaderTable reloadData];
+}
+
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 
 {
-    NSMutableArray *titles = [[NSMutableArray alloc]initWithObjects:@"First rank: Frog",@"You are above average",@"Saved for a European",@"Saved for an American",@"Next rank: Hippopotamus",@"Fill a firetruck", nil];
-    NSMutableArray *images = [[NSMutableArray alloc]initWithObjects:@"(achievements) frog.png",@"(achievements)koala.png",@"(achievement)Euro.png",@"(achievement) american.png",@"(achievements)koala.png",@"(achievements)koala.png", nil];
-    NSMutableArray *texts = [[NSMutableArray alloc] initWithObjects:@"Welcome! You made the first step to conserve more water with PEPO.",@"Your first shower record showed less than 17 gallons used - less than America's shower average.", @"You saved 50 gallons - what the average European uses a day.",@"You saved 100 gallons - what the average American uses a day.",@"Save 400 gallons to unlock.",@"Save 500 gallons to unlock", nil];
-    
-    static NSString *cellIdentifier = @"cell2";
-    
+    NSMutableArray *poss = [[NSMutableArray alloc] initWithObjects:@"1",@"2",@"3",@"4", nil];
+    NSMutableArray *names = [[NSMutableArray alloc] initWithObjects:@"Mitchell Pritchett",@"Jay Pritchett",@"Me",@"Alex Dunphy",nil];
+    NSMutableArray *ranks = [[NSMutableArray alloc] initWithObjects:@"Rank:Elephant",@"Rank:Hippo",@"Rank:Frog",@"Rank:Frog",nil];
+    NSMutableArray *gallonss = [[NSMutableArray alloc] initWithObjects:@"62",@"68",@"85",@"98",nil];
+    NSMutableArray *pics = [[NSMutableArray alloc] initWithObjects:@"(friends leaderboard) mitchel.png",@"(friends leaderboard) jay.png",@"Phil.jpg",@"(friends leaderboard) alex.png",nil];
+    NSMutableArray *scores = [[NSMutableArray alloc] initWithObjects:@"3 vs 2",@"5 vs 3",nil];
+    NSMutableArray *progresses = [[NSMutableArray alloc] initWithObjects:@"(friends challenge) inprogress.png",@"(friends challenge) champ.png", nil];
+    NSMutableArray *chalnames = [[NSMutableArray alloc] initWithObjects:@"Mitchell P.",@"Jay P.", nil];
+ 
+    static NSString *cellIdentifier;
+    if (tabs2.selectedSegmentIndex==0){
+        cellIdentifier = @"cell2";
+    }
+    else{
+        cellIdentifier = @"cell3";
+    }
     LeaderCell *cell = (LeaderCell *)[leaderTable dequeueReusableCellWithIdentifier:cellIdentifier];
     
     if (cell == nil) {
-        
         cell = [[LeaderCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIdentifier];
-        
+    }
+    
+    cell.pos.text = [poss objectAtIndex:indexPath.row];
+    cell.name.text = [names objectAtIndex:indexPath.row];
+    cell.rank.text = [ranks objectAtIndex:indexPath.row];
+    cell.gallons.text = [gallonss objectAtIndex:indexPath.row];
+    cell.pic.image = [UIImage imageNamed:[pics objectAtIndex:indexPath.row]];
+    cell.pic.layer.cornerRadius = cell.pic.frame.size.width/2;
+    cell.pic.layer.masksToBounds = YES;
+    if (indexPath.row ==2){
+        cell.backgroundColor= [UIColor colorWithRed:189/255.0 green:(195/255.0) blue:199/255.0 alpha:1];
+    }
+    if (tabs2.selectedSegmentIndex==1){
+        cell.score.text = [scores objectAtIndex:indexPath.row];
+        cell.challengername.text = [chalnames objectAtIndex:indexPath.row];
+        cell.challengerpic.image =[UIImage imageNamed:[pics objectAtIndex:indexPath.row]];
+        cell.progress.image =[UIImage imageNamed:[progresses objectAtIndex:indexPath.row ]];
     }
     return cell;
+}
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+
+{
+    if (tabs2.selectedSegmentIndex==0){
+       return 4 ;
+    }
+    else{
+        return 2;
+    }
     
 }
+
 
 @end

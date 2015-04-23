@@ -14,7 +14,7 @@
 @end
 
 @implementation ViewController
-@synthesize loginbutton, signupbutton,username,password, loginview,login,loginwithfb;
+@synthesize loginbutton, signupbutton,username,password, loginview,login,loginwithfb,loginwithout;
 
 
 - (void)viewDidLoad {
@@ -22,31 +22,34 @@
     // Do any additional setup after loading the view, typically from a nib.
     CALayer *loginlayer = [loginbutton layer];
     [loginlayer setMasksToBounds:YES];
-    [loginlayer setCornerRadius:5.0f];
+    [loginlayer setCornerRadius:25.0f];
     CALayer *signuplayer = [signupbutton layer];
     [signuplayer setMasksToBounds:YES];
-    [signuplayer setCornerRadius:5.0f];
+    [signuplayer setCornerRadius:25.0f];
     CALayer *logginlayer = [login layer];
     [logginlayer setMasksToBounds:YES];
-    [logginlayer setCornerRadius:5.0f];
+    [logginlayer setCornerRadius:15.0f];
     CALayer *logginwithfblayer = [loginwithfb layer];
     [logginwithfblayer setMasksToBounds:YES];
-    [logginwithfblayer setCornerRadius:5.0f];
-    username.layer.cornerRadius=0.0f;
+    [logginwithfblayer setCornerRadius:15.0f];
+    CALayer *logginwithoutfblayer = [loginwithout layer];
+    [logginwithoutfblayer setMasksToBounds:YES];
+    [logginwithoutfblayer setCornerRadius:15.0f];
+    username.layer.cornerRadius=15.0f;
     username.layer.masksToBounds=YES;
     username.layer.borderColor=[[UIColor grayColor]CGColor];
     username.layer.borderWidth= 1.0f;
     UIView *paddingView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 10, 20)];
     username.leftView = paddingView;
     username.leftViewMode = UITextFieldViewModeAlways;
-    password.layer.cornerRadius=0.0f;
+    password.layer.cornerRadius=15.0f;
     password.layer.masksToBounds=YES;
     password.layer.borderColor=[[UIColor grayColor]CGColor];
     password.layer.borderWidth= 1.0f;
     UIView *paddingView2 = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 10, 20)];
     password.leftView = paddingView2;
     password.leftViewMode = UITextFieldViewModeAlways;
-    
+  
     loginview.alpha = 0;
 
 }
