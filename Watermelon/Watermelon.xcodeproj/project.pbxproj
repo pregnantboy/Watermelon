@@ -72,6 +72,11 @@
 		3CB63A7D1AE0138E00447B70 /* (menu) tips.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB63A5D1AE0138E00447B70 /* (menu) tips.png */; };
 		3CB63A801AE01A1000447B70 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB63A7F1AE01A1000447B70 /* MenuViewController.m */; };
 		3CB63A821AE01C5A00447B70 /* Phil.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3CB63A811AE01C5A00447B70 /* Phil.jpg */; };
+		3CB6A0291AECB88200D2469D /* showerhead.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB6A0261AECB88200D2469D /* showerhead.png */; };
+		3CB6A02A1AECB88200D2469D /* showerheadwsensor.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB6A0271AECB88200D2469D /* showerheadwsensor.png */; };
+		3CB6A02C1AECBF5500D2469D /* sensor mock1.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 3CB6A02B1AECBF5500D2469D /* sensor mock1.PNG */; };
+		3CC98D2C1AEBB53B002A13AE /* SetupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CC98D2B1AEBB53B002A13AE /* SetupViewController.m */; };
+		3CC98D2E1AEBBCD4002A13AE /* greentick.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CC98D2D1AEBBCD4002A13AE /* greentick.png */; };
 		3CCB76CA1ADC8E3900BED9E8 /* JBBarChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CCB76C51ADC8E3900BED9E8 /* JBBarChartView.m */; };
 		3CCB76CB1ADC8E3900BED9E8 /* JBChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CCB76C71ADC8E3900BED9E8 /* JBChartView.m */; };
 		3CCB76CC1ADC8E3900BED9E8 /* JBLineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CCB76C91ADC8E3900BED9E8 /* JBLineChartView.m */; };
@@ -168,6 +173,12 @@
 		3CB63A7E1AE01A1000447B70 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
 		3CB63A7F1AE01A1000447B70 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
 		3CB63A811AE01C5A00447B70 /* Phil.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Phil.jpg; sourceTree = "<group>"; };
+		3CB6A0261AECB88200D2469D /* showerhead.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = showerhead.png; sourceTree = "<group>"; };
+		3CB6A0271AECB88200D2469D /* showerheadwsensor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = showerheadwsensor.png; sourceTree = "<group>"; };
+		3CB6A02B1AECBF5500D2469D /* sensor mock1.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sensor mock1.PNG"; sourceTree = "<group>"; };
+		3CC98D2A1AEBB53B002A13AE /* SetupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetupViewController.h; sourceTree = "<group>"; };
+		3CC98D2B1AEBB53B002A13AE /* SetupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetupViewController.m; sourceTree = "<group>"; };
+		3CC98D2D1AEBBCD4002A13AE /* greentick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greentick.png; sourceTree = "<group>"; };
 		3CCB76C41ADC8E3900BED9E8 /* JBBarChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JBBarChartView.h; path = "../JBChartView-master/Classes/JBBarChartView.h"; sourceTree = "<group>"; };
 		3CCB76C51ADC8E3900BED9E8 /* JBBarChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JBBarChartView.m; path = "../JBChartView-master/Classes/JBBarChartView.m"; sourceTree = "<group>"; };
 		3CCB76C61ADC8E3900BED9E8 /* JBChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JBChartView.h; path = "../JBChartView-master/Classes/JBChartView.h"; sourceTree = "<group>"; };
@@ -249,6 +260,8 @@
 				3C35A38D1AE8BC4600608FA8 /* LeaderCell.m */,
 				3CCB76C81ADC8E3900BED9E8 /* JBLineChartView.h */,
 				3CCB76C91ADC8E3900BED9E8 /* JBLineChartView.m */,
+				3CC98D2A1AEBB53B002A13AE /* SetupViewController.h */,
+				3CC98D2B1AEBB53B002A13AE /* SetupViewController.m */,
 				3C5F35D61AE5C8B500710197 /* AchievementViewController.h */,
 				3C5F35D71AE5C8B500710197 /* AchievementViewController.m */,
 				3CB63A7E1AE01A1000447B70 /* MenuViewController.h */,
@@ -270,7 +283,11 @@
 		3CA7E3B61AD33FEB00432446 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3CC98D2D1AEBBCD4002A13AE /* greentick.png */,
+				3CB6A02B1AECBF5500D2469D /* sensor mock1.PNG */,
 				3CB63A811AE01C5A00447B70 /* Phil.jpg */,
+				3CB6A0261AECB88200D2469D /* showerhead.png */,
+				3CB6A0271AECB88200D2469D /* showerheadwsensor.png */,
 				3CEE2BE41AE9AE7E0011C6C3 /* (achievement) question mark 2.png */,
 				3CEE2BE51AE9AE7E0011C6C3 /* (achievement) question mark.png */,
 				3CA7E3FA1AD3B91100432446 /* login with facebook.png */,
@@ -435,6 +452,7 @@
 				3CB63A621AE0138E00447B70 /* (achievements) frog.png in Resources */,
 				3CB63A6E1AE0138E00447B70 /* (bar) home.png in Resources */,
 				3CB63A641AE0138E00447B70 /* (add challenge find friends) close.png in Resources */,
+				3CB6A02C1AECBF5500D2469D /* sensor mock1.PNG in Resources */,
 				3CB63A661AE0138E00447B70 /* (bar) achievement.png in Resources */,
 				3CA7E3DF1AD342F200432446 /* sea.jpg in Resources */,
 				3CEE2BE71AE9AE7E0011C6C3 /* (achievement) question mark.png in Resources */,
@@ -454,11 +472,13 @@
 				3CB63A671AE0138E00447B70 /* (bar) achievement(selected.png in Resources */,
 				3CB63A7D1AE0138E00447B70 /* (menu) tips.png in Resources */,
 				3CA7E3E91AD359F800432446 /* Light-Grey-Background.jpg in Resources */,
+				3CB6A02A1AECB88200D2469D /* showerheadwsensor.png in Resources */,
 				3CB63A761AE0138E00447B70 /* (home) hippo.png in Resources */,
 				3CB63A6A1AE0138E00447B70 /* (bar) friends.png in Resources */,
 				3CB63A631AE0138E00447B70 /* (achievements)koala.png in Resources */,
 				3CB63A681AE0138E00447B70 /* (bar) challenge.png in Resources */,
 				3CB63A5E1AE0138E00447B70 /* (achievement) american.png in Resources */,
+				3CC98D2E1AEBBCD4002A13AE /* greentick.png in Resources */,
 				3CB63A5F1AE0138E00447B70 /* (achievement) locked.png in Resources */,
 				3CB63A741AE0138E00447B70 /* (friends leaderboard) mitchel.png in Resources */,
 				3CB63A7C1AE0138E00447B70 /* (menu) settings.png in Resources */,
@@ -470,6 +490,7 @@
 				3CB63A651AE0138E00447B70 /* (add challenge find friends) search.png in Resources */,
 				3CB63A611AE0138E00447B70 /* (achievement)Euro.png in Resources */,
 				3CA7E3E71AD3591B00432446 /* logo2 (1).bmp in Resources */,
+				3CB6A0291AECB88200D2469D /* showerhead.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -489,6 +510,7 @@
 			files = (
 				3C3F06E71AE7ABBC009B8B41 /* FriendsViewController.m in Sources */,
 				3C45394F1AD4ADDF0038DD1D /* TrackViewController.m in Sources */,
+				3CC98D2C1AEBB53B002A13AE /* SetupViewController.m in Sources */,
 				3CB63A801AE01A1000447B70 /* MenuViewController.m in Sources */,
 				3C3F06E41AE780B3009B8B41 /* CustomCell.m in Sources */,
 				3CCB76CB1ADC8E3900BED9E8 /* JBChartView.m in Sources */,
