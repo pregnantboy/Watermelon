@@ -14,8 +14,8 @@
 
 @implementation TrackViewController
 
-@synthesize barChartView, timeStamp,duration,lineChartview,tabs, gridView,piechartberkeley,berkeleyusers,calusers, todayousaved,piechartcal,circ1,circ2,calperc,berkperc, monthdata,weekdata,barChartView2,lineChartView2,labelviews;
-NSString *const fireurl = @"https://watermelearn.firebaseio.com/sensor2";
+@synthesize barChartView, timeStamp,duration,lineChartview,tabs, gridView,piechartberkeley,berkeleyusers,calusers, todayousaved,piechartcal,circ1,circ2,calperc,berkperc, monthdata,weekdata,barChartView2,Sensorname,lineChartView2,labelviews;
+NSString *const fireurl = @"https://watermelearn.firebaseio.com/sensor3";
 double gallons = 1.0;
 
 - (void)viewDidLoad {
@@ -58,12 +58,26 @@ double gallons = 1.0;
         [view1 removeFromSuperview];
     }
     self.weekdata = [[NSMutableArray alloc] initWithObjects:[NSNumber numberWithInt:78], [NSNumber numberWithInt:105], [NSNumber numberWithInt:70], [NSNumber numberWithInt:88], [NSNumber numberWithInt:101], [NSNumber numberWithInt:93],[NSNumber numberWithInt:120],[NSNumber numberWithInt:79],[NSNumber numberWithInt:121],[NSNumber numberWithInt:93], nil];
+    Firebase *nameref2 = [[Firebase alloc] initWithUrl: @"https://watermelearn.firebaseio.com/name"];
+    Sensorname.text = @"loading data...";
+    [nameref2 observeEventType:FEventTypeChildAdded withBlock:^(FDataSnapshot *snapshot) {
+       NSMutableString *tempstring =[NSMutableString string];
+        [tempstring appendString:@"Sensor: "];
+        [tempstring appendString:(NSString *)snapshot.value[@"name"]];
+        [tempstring appendString:@"     Flow Rate: "];
+        [tempstring appendString:(NSString *)snapshot.value[@"gpm"]];
+        Sensorname.text = tempstring;
+        [self setpie1:30 setpie2:54];
+        [self showfirst:@"30%" showsecond:@"54%"];
+    }];
 }
 
 - (IBAction)tabschanged:(id)sender {
     switch (tabs.selectedSegmentIndex){
         case 0:
             [self daySegment];
+            [self setpie1:30 setpie2:54];
+            [self showfirst:@"30%" showsecond:@"54%"];
             break;
         case 1:
             [self weekSegment];
@@ -124,13 +138,12 @@ double gallons = 1.0;
             [self.labelviews addObject:label];
         }
         todayousaved.text = @"Today you saved more water than";
-        [self setpie1:30 setpie2:54];
-        [self showfirst:@"30%" showsecond:@"54%"];
+        
         
     }];
     [ref observeEventType:FEventTypeChildAdded withBlock:^(FDataSnapshot *snapshot) {
         //NSLog(@"%@", snapshot.value[@"timeStamp"]);
-        if ([snapshot.value[@"value"] intValue]> 100){
+        if ([snapshot.value[@"average"] intValue]> 100){
             if ([snapshot.value[@"timeStamp"]longValue] >1000000) {
                 NSNumber *insertion = [NSNumber numberWithLong:[snapshot.value[@"timeStamp"]longValue]];
                 [timeStamp insertObject: insertion atIndex:0];
@@ -155,9 +168,9 @@ double gallons = 1.0;
     
     //barChartView.layer.borderWidth = 1;
     
-    barChartView.maximumValue = 200;
+    barChartView.maximumValue = 150;
     
-    lineChartview.maximumValue = 200;
+    lineChartview.maximumValue = 150;
     
     
     
@@ -260,11 +273,17 @@ double gallons = 1.0;
         long currtimeStamp = [[self.timeStamp objectAtIndex:i] longValue];
         long difference = currtimeStamp - prevtimeStamp;
         //if (difference <0) NSLog(@"%ld - %ld", currtimeStamp, prevtimeStamp);
-        if ((difference<30)&&(difference>0)){
+        if ((difference<40)&&(difference>0)){
+            //this if was just added
+            if (difference>10){
+                prevtimeStamp = currtimeStamp;
+            }
+            else{
             long newduration =[[duration objectAtIndex:0] longValue] + difference;
             if ([[duration objectAtIndex:0] longValue]<0 ) NSLog (@"error in duration ");
             NSNumber* replacement = [NSNumber numberWithLong: newduration];
             [self.duration replaceObjectAtIndex:0 withObject:replacement];
+            }
         }
         else {
             if ([[self.duration objectAtIndex:0] intValue] > 20){
@@ -290,7 +309,7 @@ double gallons = 1.0;
 - (UIColor *)barChartView:(JBBarChartView *)barChartView colorForBarViewAtIndex:(NSUInteger)index{
      if(tabs.selectedSegmentIndex==0){
          if (index == 0){
-             if ([self.duration count]>2){
+             if ([self.duration count]>=2){
                  int height1 = [[self.duration objectAtIndex:0]intValue];
                  int height2 = [[self.duration objectAtIndex:1]intValue];
                  if (height1<=height2) return [UIColor  colorWithRed:83/255.0 green:215/255.0 blue:148/255.0 alpha:0.9];

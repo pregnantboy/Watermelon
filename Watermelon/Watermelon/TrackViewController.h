@@ -19,6 +19,7 @@
 @property (weak, nonatomic) IBOutlet JBLineChartView *lineChartview;
 @property (nonatomic,strong) NSMutableArray *timeStamp;
 @property (strong, nonatomic) IBOutlet UISegmentedControl *tabs;
+@property (weak, nonatomic) IBOutlet UILabel *Sensorname;
 @property (weak, nonatomic) IBOutlet UIView *gridView;
 @property (weak, nonatomic) IBOutlet UILabel *todayousaved;
 @property (weak, nonatomic) IBOutlet DLPieChart *piechartberkeley;

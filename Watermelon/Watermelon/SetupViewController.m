@@ -11,8 +11,8 @@
 @implementation SetupViewController
 @synthesize next,serialno,devicename,tick,gpm,seconds,allset,barbar,next2;
 
-NSString *const fireurl3 = @"https://watermelearn.firebaseio.com/sensor2";
-
+NSString *const fireurl3 = @"https://watermelearn.firebaseio.com/sensor3";
+NSString *const firename = @"https://watermelearn.firebaseio.com/name/name";
 - (void)viewDidLoad {
     
     [super viewDidLoad];
@@ -60,7 +60,7 @@ NSString *const fireurl3 = @"https://watermelearn.firebaseio.com/sensor2";
     barbar.backgroundColor = [UIColor clearColor];
     Firebase *ref = [[Firebase alloc] initWithUrl: fireurl3];
     [ref observeEventType:FEventTypeChildAdded withBlock:^(FDataSnapshot *snapshot) {
-        int value = [snapshot.value[@"value"] intValue];
+        int value = [snapshot.value[@"average"] intValue];
         [self drawBar: value];
     }];
 }
@@ -71,25 +71,55 @@ NSString *const fireurl3 = @"https://watermelearn.firebaseio.com/sensor2";
     [gpm resignFirstResponder];
     [seconds resignFirstResponder];
 }
+- (IBAction)onclicknext:(id)sender {
+    Firebase *nameRef = [[Firebase alloc] initWithUrl: firename];
+    
+    NSDictionary *nickname = @{
+                               @"name": devicename.text,
+                               };
+    if (devicename.text.length>0){
+    [nameRef updateChildValues: nickname];
+    }
+}
+- (IBAction)onclickdone:(id)sender {
+    Firebase *nameRef = [[Firebase alloc] initWithUrl: firename];
+    
+    
+    if (gpm.text.length>0){
+        NSDictionary *setgpm = @{
+                                 @"gpm": gpm.text,
+                                 };
+        [nameRef updateChildValues: setgpm];
+    }
+    else if (seconds.text.length >0){
+        float gpm = [seconds.text floatValue];
+        gpm = gpm * 4/60;
+        NSDictionary *setgpm = @{
+                                 @"gpm": [NSString stringWithFormat:@"%.1f", gpm],
+                                 };
+        [nameRef updateChildValues: setgpm];
+    }
+}
 - (IBAction)onclick:(id)sender {
     [UIView beginAnimations:NULL context:NULL];
     [UIView setAnimationDuration:0.8];
     self.view2.alpha = 1;
     [UIView commitAnimations];
+    gpm.text=@"";
     NSLog(@"change!");
 
 }
 - (void) drawBar:(int) length{
-    if (length > 150){
-        length = 150;
+    if (length > 200){
+        length = 200;
     }
-    if (length>80){
+    if (length>120){
         barbar.backgroundColor = [UIColor colorWithRed:42/255.0 green:167/255.0 blue:208/255.0 alpha:1];
     }
     else {
         barbar.backgroundColor = [UIColor  colorWithRed:231/255.0 green:126/255.0 blue:120/255.0 alpha:1];
     }
-    [barbar setFrame:CGRectMake(barbar.frame.origin.x, barbar.frame.origin.y, length*2, barbar.frame.size.height)];
+    [barbar setFrame:CGRectMake(barbar.frame.origin.x, barbar.frame.origin.y, length*(1.5), barbar.frame.size.height)];
 }
 - (BOOL)textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string
 {
@@ -117,6 +147,10 @@ NSString *const fireurl3 = @"https://watermelearn.firebaseio.com/sensor2";
         [UIView setAnimationDuration:0.8];
          self.view2.alpha = 0;
         [UIView commitAnimations];
+        seconds.text=@"";
+    }
+    if (textField == seconds){
+        gpm.text=@"";
     }
     return YES;
 }

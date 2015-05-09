@@ -151,7 +151,7 @@
                                 </variation>
                             </imageView>
                             <button opaque="NO" alpha="0.80000000000000004" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8yO-yM-047">
-                                <rect key="frame" x="93" y="451" width="189" height="50.5"/>
+                                <rect key="frame" x="93" y="451" width="189" height="51"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="56" id="ZVo-aV-1ox"/>
                                     <constraint firstAttribute="width" secondItem="8yO-yM-047" secondAttribute="height" multiplier="189:50" id="pyi-bC-P07"/>
@@ -348,7 +348,7 @@
                                 <rect key="frame" x="0.0" y="333" width="380" height="314"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AXI-m7-zoh">
-                                        <rect key="frame" x="194" y="107" width="178" height="99.5"/>
+                                        <rect key="frame" x="194" y="107" width="178" height="100"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
                                         <state key="normal" title="CHALLENGE">
                                             <color key="titleColor" red="0.1647058824" green="0.65490196079999996" blue="0.81568627449999997" alpha="1" colorSpace="calibratedRGB"/>
@@ -356,7 +356,7 @@
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hlR-Br-Cgs">
-                                        <rect key="frame" x="194" y="0.0" width="178" height="106.5"/>
+                                        <rect key="frame" x="194" y="0.0" width="178" height="107"/>
                                         <color key="backgroundColor" red="0.16470588235294117" green="0.65490196078431373" blue="0.81568627450980391" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
                                         <color key="tintColor" red="0.027450980392156862" green="0.17647058823529413" blue="0.67843137254901964" alpha="1" colorSpace="calibratedRGB"/>
@@ -366,7 +366,7 @@
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vkH-sA-5nO">
-                                        <rect key="frame" x="0.0" y="108" width="198" height="98.5"/>
+                                        <rect key="frame" x="0.0" y="108" width="198" height="99"/>
                                         <color key="backgroundColor" red="0.1647058824" green="0.65490196079999996" blue="0.81568627449999997" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
                                         <state key="normal" title="TIPS">
@@ -387,7 +387,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Aw-We-X8I">
-                                        <rect key="frame" x="0.0" y="0.0" width="187" height="106.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="187" height="107"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="60" id="lKH-ac-E0X"/>
                                         </constraints>
@@ -406,7 +406,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vMf-Ww-hfZ">
-                                        <rect key="frame" x="167" y="211" width="178" height="106.5"/>
+                                        <rect key="frame" x="167" y="211" width="178" height="107"/>
                                         <color key="backgroundColor" red="0.1647058824" green="0.65490196079999996" blue="0.81568627449999997" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
                                         <state key="normal" title="SENSOR">
@@ -517,7 +517,7 @@
                                     <constraint firstAttribute="width" constant="326" id="Oef-Hu-4pb"/>
                                 </constraints>
                                 <segments>
-                                    <segment title="Day"/>
+                                    <segment title="Shower"/>
                                     <segment title="Week"/>
                                     <segment title="Month"/>
                                 </segments>
@@ -740,6 +740,12 @@
                                             </mask>
                                         </variation>
                                     </view>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UWt-hc-nxv">
+                                        <rect key="frame" x="236" y="0.0" width="42" height="21"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" red="0.16470588235294117" green="0.65490196078431373" blue="0.81568627450980391" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -843,6 +849,8 @@
                             <constraint firstItem="C1p-C0-3M3" firstAttribute="top" secondItem="3uv-Oi-fnm" secondAttribute="bottom" id="WSY-qM-wtD"/>
                             <constraint firstItem="Q0i-ob-Bg2" firstAttribute="leading" secondItem="QHV-8N-vw3" secondAttribute="leadingMargin" constant="-16" id="YTu-Xk-AoW"/>
                             <constraint firstItem="lxI-Ub-MB0" firstAttribute="top" secondItem="23j-9G-wK0" secondAttribute="bottom" id="ZAz-8f-DXd"/>
+                            <constraint firstItem="UWt-hc-nxv" firstAttribute="centerX" secondItem="3uv-Oi-fnm" secondAttribute="centerX" id="ao8-UU-7Af"/>
+                            <constraint firstItem="UWt-hc-nxv" firstAttribute="top" secondItem="3uv-Oi-fnm" secondAttribute="bottom" constant="5" id="c2t-lw-GnJ"/>
                             <constraint firstItem="23j-9G-wK0" firstAttribute="centerY" secondItem="QXQ-YM-myM" secondAttribute="centerY" id="feZ-f3-eod"/>
                             <constraint firstItem="hW2-jn-5aq" firstAttribute="leading" secondItem="23j-9G-wK0" secondAttribute="trailing" id="fmJ-wh-irn"/>
                             <constraint firstAttribute="centerX" secondItem="C1p-C0-3M3" secondAttribute="centerX" id="hVP-Ix-7gD"/>
@@ -863,6 +871,7 @@
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
+                        <outlet property="Sensorname" destination="UWt-hc-nxv" id="bVe-5v-e5y"/>
                         <outlet property="barChartView" destination="BLy-aw-BKX" id="VwB-Gi-mXk"/>
                         <outlet property="barChartView2" destination="29l-Gl-OXm" id="eHb-25-6EH"/>
                         <outlet property="berkperc" destination="T0D-aH-lFN" id="2Ke-tT-OEZ"/>
@@ -913,6 +922,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
+                                    <action selector="onclickdone:" destination="aPf-Sp-cQF" eventType="touchUpInside" id="ING-cl-zdi"/>
                                     <segue destination="mnD-jc-AN7" kind="presentation" id="fe9-lF-WMJ"/>
                                 </connections>
                             </button>
@@ -1008,7 +1018,7 @@
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mNg-9d-IuV">
                                         <rect key="frame" x="27" y="51" width="820" height="131"/>
-                                        <string key="text">Can't find the flow rate? Fret not! Time yourself while filling up the half-gallon plastic bag we have included in the package.
+                                        <string key="text">Can't find the flow rate? Fret not! Time yourself while filling up the quarter-gallon plastic bag we have included in the package.
 
 Enter the time taken to fill the bag:</string>
                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="19"/>
@@ -1122,6 +1132,7 @@ Enter the time taken to fill the bag:</string>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
+                                    <action selector="onclicknext:" destination="0Z3-vj-PWX" eventType="touchUpInside" id="hUi-Y4-RIP"/>
                                     <segue destination="dff-u2-DKF" kind="presentation" id="KzQ-2X-e5o"/>
                                 </connections>
                             </button>
@@ -2228,9 +2239,9 @@ activity</string>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="pDw-pN-0Cu"/>
-        <segue reference="8Vh-tL-M5U"/>
-        <segue reference="RYQ-ei-Ptg"/>
+        <segue reference="iih-NR-9QN"/>
         <segue reference="xs4-gc-mrz"/>
-        <segue reference="u7B-uD-mmP"/>
+        <segue reference="cGE-3r-SKM"/>
+        <segue reference="bgO-vQ-EKH"/>
     </inferredMetricsTieBreakers>
 </document>

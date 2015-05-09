@@ -19,6 +19,9 @@
 		3C3F06E71AE7ABBC009B8B41 /* FriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C3F06E61AE7ABBC009B8B41 /* FriendsViewController.m */; };
 		3C45394F1AD4ADDF0038DD1D /* TrackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C45394E1AD4ADDF0038DD1D /* TrackViewController.m */; };
 		3C5F35D81AE5C8B500710197 /* AchievementViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C5F35D71AE5C8B500710197 /* AchievementViewController.m */; };
+		3C61154D1AEF0DB000BD9D9B /* logo copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C61154C1AEF0DB000BD9D9B /* logo copy.png */; };
+		3C6115521AEF102E00BD9D9B /* rsz_1logo_copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C6115501AEF102E00BD9D9B /* rsz_1logo_copy.png */; };
+		3C6115531AEF102E00BD9D9B /* rsz_logo_copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C6115511AEF102E00BD9D9B /* rsz_logo_copy.png */; };
 		3C80506C1AD49F29006583DC /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C80506B1AD49F29006583DC /* Accelerate.framework */; };
 		3CA6970D1AE8DE0200FFB406 /* verticalseablur.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3CA6970C1AE8DE0200FFB406 /* verticalseablur.jpg */; };
 		3CA7E3B91AD33FEB00432446 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA7E3B81AD33FEB00432446 /* main.m */; };
@@ -113,6 +116,9 @@
 		3C45394E1AD4ADDF0038DD1D /* TrackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrackViewController.m; sourceTree = "<group>"; };
 		3C5F35D61AE5C8B500710197 /* AchievementViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AchievementViewController.h; sourceTree = "<group>"; };
 		3C5F35D71AE5C8B500710197 /* AchievementViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AchievementViewController.m; sourceTree = "<group>"; };
+		3C61154C1AEF0DB000BD9D9B /* logo copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo copy.png"; sourceTree = "<group>"; };
+		3C6115501AEF102E00BD9D9B /* rsz_1logo_copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rsz_1logo_copy.png; sourceTree = "<group>"; };
+		3C6115511AEF102E00BD9D9B /* rsz_logo_copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rsz_logo_copy.png; sourceTree = "<group>"; };
 		3C80506B1AD49F29006583DC /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		3CA6970C1AE8DE0200FFB406 /* verticalseablur.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = verticalseablur.jpg; sourceTree = "<group>"; };
 		3CA7E3B31AD33FEB00432446 /* Watermelon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Watermelon.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -316,9 +322,12 @@
 				3CB63A501AE0138E00447B70 /* (friends challenge) champ.png */,
 				3CB63A511AE0138E00447B70 /* (friends challenge) inprogress.png */,
 				3CB63A521AE0138E00447B70 /* (friends leaderboard) alex.png */,
+				3C61154C1AEF0DB000BD9D9B /* logo copy.png */,
 				3CB63A531AE0138E00447B70 /* (friends leaderboard) jay.png */,
 				3CB63A541AE0138E00447B70 /* (friends leaderboard) mitchel.png */,
 				3CB63A551AE0138E00447B70 /* (home) frog.png */,
+				3C6115501AEF102E00BD9D9B /* rsz_1logo_copy.png */,
+				3C6115511AEF102E00BD9D9B /* rsz_logo_copy.png */,
 				3CB63A561AE0138E00447B70 /* (home) hippo.png */,
 				3CB63A571AE0138E00447B70 /* (menu) about.png */,
 				3CB63A581AE0138E00447B70 /* (menu) friends.png */,
@@ -445,6 +454,7 @@
 				3CB63A781AE0138E00447B70 /* (menu) friends.png in Resources */,
 				3CB63A751AE0138E00447B70 /* (home) frog.png in Resources */,
 				3CA7E3C21AD33FEB00432446 /* Main.storyboard in Resources */,
+				3C6115531AEF102E00BD9D9B /* rsz_logo_copy.png in Resources */,
 				3CB63A6D1AE0138E00447B70 /* (bar) home-selected.png in Resources */,
 				3CB63A821AE01C5A00447B70 /* Phil.jpg in Resources */,
 				3CB63A7A1AE0138E00447B70 /* (menu) invite.png in Resources */,
@@ -453,6 +463,7 @@
 				3CB63A6E1AE0138E00447B70 /* (bar) home.png in Resources */,
 				3CB63A641AE0138E00447B70 /* (add challenge find friends) close.png in Resources */,
 				3CB6A02C1AECBF5500D2469D /* sensor mock1.PNG in Resources */,
+				3C6115521AEF102E00BD9D9B /* rsz_1logo_copy.png in Resources */,
 				3CB63A661AE0138E00447B70 /* (bar) achievement.png in Resources */,
 				3CA7E3DF1AD342F200432446 /* sea.jpg in Resources */,
 				3CEE2BE71AE9AE7E0011C6C3 /* (achievement) question mark.png in Resources */,
@@ -478,6 +489,7 @@
 				3CB63A631AE0138E00447B70 /* (achievements)koala.png in Resources */,
 				3CB63A681AE0138E00447B70 /* (bar) challenge.png in Resources */,
 				3CB63A5E1AE0138E00447B70 /* (achievement) american.png in Resources */,
+				3C61154D1AEF0DB000BD9D9B /* logo copy.png in Resources */,
 				3CC98D2E1AEBBCD4002A13AE /* greentick.png in Resources */,
 				3CB63A5F1AE0138E00447B70 /* (achievement) locked.png in Resources */,
 				3CB63A741AE0138E00447B70 /* (friends leaderboard) mitchel.png in Resources */,
@@ -644,7 +656,7 @@
 		3CA7E3D71AD33FEB00432446 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -664,7 +676,7 @@
 		3CA7E3D81AD33FEB00432446 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
